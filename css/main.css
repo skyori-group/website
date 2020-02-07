@@ -826,7 +826,10 @@ select:focus {
     padding-top: 0;
     background-image: none; }
     #company h1 {
-      padding-top: 5px; } }
+      padding-top: 5px; }
+
+  .nums > div > div {
+    font-size: 50px; } }
 .col-2dot4 {
   -webkit-box-flex: 0;
   -ms-flex: 0 0 20%;

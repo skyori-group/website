@@ -8,37 +8,45 @@
  * Copyright 2013, Codrops
  * http://www.codrops.com
  */
-// var cbpAnimatedHeader = (function() {
+var cbpAnimatedHeader = (function() {
 
-//   var docElem = document.documentElement,
-//     header = document.querySelector( '.navbar.fixed-top' ),
-//     didScroll = false,
-//     changeHeaderOn = 80;
+  var docElem = document.documentElement,
+    header = document.querySelector( '.navbar.fixed-top' ),
+    didScroll = false,
+    changeHeaderOn = 50;
 
-//   function init() {
-//     window.addEventListener( 'scroll', function( event ) {
-//       if( !didScroll ) {
-//         didScroll = true;
-//         setTimeout( scrollPage, 130 );
-//       }
-//     }, false );
-//   }
+  function init() {
+    let elements = $('.modal').toArray();
+    elements.push(window);
 
-//   function scrollPage() {
-//     var sy = scrollY();
+    elements.forEach(function(elem) {
+        elem.addEventListener( 'scroll', function( event ) {
+          if( !didScroll ) {
+            didScroll = true;
+            setTimeout(scrollPage(elem), 50);
+          }
+        }, false );
+    });
+  }
 
-//     if ( sy >= changeHeaderOn) {
-//       $(header).addClass('navbar-shrink');
-//     } else {
-//       $(header).removeClass('navbar-shrink');
-//     }
-//     didScroll = false;
-//   }
+  function scrollPage(elem) {
+    var sy = scrollY(elem);
+    headerModal = $( '.modal.show .navbar.fixed-top' );
 
-//   function scrollY() {
-//     return window.pageYOffset || docElem.scrollTop;
-//   }
+    if (sy >= changeHeaderOn) {
+      $(header).addClass('navbar-shrink');
+      headerModal.addClass('navbar-shrink');
+    } else {
+      $(header).removeClass('navbar-shrink');
+      headerModal.removeClass('navbar-shrink');
+    }
+    didScroll = false;
+  }
 
-//   init();
+  function scrollY(elem) {
+    return $(elem).scrollTop() || docElem.scrollTop;
+  }
 
-// })();
+  init();
+
+})();

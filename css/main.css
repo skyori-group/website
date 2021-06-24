@@ -788,13 +788,6 @@ select:focus {
   #about {
     padding-top: 70px; }
 
-  #about .container {
-    position: relative;
-    background-image: url(/img/about-bg.png);
-    background-repeat: no-repeat;
-    background-position: 105% 13%;
-    overflow: hidden; }
-
   .nav-close {
     display: none; }
 

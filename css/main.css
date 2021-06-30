@@ -791,9 +791,6 @@ select:focus {
   .nav-close {
     display: none; }
 
-  .navbar-brand {
-    margin-right: 90px; }
-
   #contacts-home .f-img {
     text-align: right; }
 
@@ -829,15 +826,18 @@ select:focus {
     #command .col-sm-6:last-child,
     #command-welcome .col-sm-6:last-child {
       padding-left: 20px; } }
+.navbar-brand {
+  margin-right: 0px; }
+
+@media (min-width: 1090px) {
+  .navbar-brand {
+    margin-right: 90px; } }
 @media (max-width: 1199px) {
   body {
     padding-top: 70px; }
 
   h1 {
     font-size: 1.5rem; }
-
-  .container {
-    max-width: 844px; }
 
   .navbar {
     padding: 20px 0 0.5rem 0; }

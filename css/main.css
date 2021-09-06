@@ -246,15 +246,21 @@ p {
   background-repeat: no-repeat; }
 
 .projects-item {
-  border-bottom: 2px solid #D8D8D8;
-  margin-bottom: 80px;
-  margin-right: 25px;
-  padding-bottom: 30px; }
+  margin-bottom: 2.7em;
+  margin-right: 2.7em; }
   .projects-item:hover {
     cursor: pointer; }
   .projects-item h1 {
     font-weight: normal;
-    margin-bottom: 30px; }
+    margin-bottom: 30px;
+    font-size: 28px; }
+  .projects-item img {
+    background-color: #EEF8FD;
+    padding: 27px 68px;
+    margin-bottom: 20px;
+    width: 100%; }
+  .col-sm-6:first-child .projects-item:nth-child(2n) img, .col-sm-6:not(:first-child) .projects-item:nth-child(2n+1) img {
+    background-color: #E2F8F2; }
 
 .project-title {
   display: -ms-flexbox;
@@ -755,11 +761,9 @@ select:focus {
     margin-right: 40px; }
 
 /* command tab */
-#command .fill-item,
-#activities .fill-item {
+#command .fill-item {
   margin-bottom: 40px; }
-#command .row,
-#activities .row {
+#command .row {
   margin-bottom: 20px; }
 
 .business-formule {
@@ -771,10 +775,25 @@ select:focus {
       margin-right: 10px; }
 
 /* COMPANY PAGE END */
-#activities .col-sm-6:first-child .fill-item:nth-child(2n),
-#activities .col-sm-6:last-child .fill-item:nth-child(2n+1) {
-  background-color: #EEF8FD; }
+/* ACTIVITIES PAGE */
+#activities h1 {
+  margin-bottom: 0.5em; }
+#activities img {
+  background-color: #EEF8FD;
+  padding: 28px 0;
+  margin-bottom: 26px;
+  width: 156px;
+  height: 156px; }
+#activities p {
+  margin-bottom: 60px; }
+#activities .row {
+  margin-bottom: 20px; }
 
+@media (min-width: 992px) {
+  #activities p {
+    margin-bottom: 60px;
+    margin-right: 80px; } }
+/* ACTIVITIES PAGE END*/
 @media (min-width: 992px) {
   #services {
     padding: 60px 0 90px; }
@@ -870,6 +889,9 @@ select:focus {
 
   h1 {
     font-size: 24px; }
+
+  .projects-item h1 {
+    font-size: 22px; }
 
   .nums > div {
     text-align: left; }

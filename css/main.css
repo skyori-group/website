@@ -286,6 +286,8 @@ p {
     padding: 0; }
   .modal-body .project-description .fill-item ul {
     margin-top: -1.4em; }
+  .modal-body .project-description .fill-item ul:not(:last-child) {
+    margin-bottom: 1em; }
 
 .nums {
   margin-bottom: 2.4rem;

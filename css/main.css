@@ -467,12 +467,23 @@ textarea.form-control {
   transform: translateY(-50%);
   width: 3px; }
 
+html .cog-page, :root:root:root:root:root .cog-page {
+  margin-bottom: 70px; }
+
+html .cog-cognito,
+:root:root:root:root:root .cog-cognito {
+  margin-left: 0 !important; }
+
+html .cog-row,
+:root:root:root:root:root .cog-row {
+  max-width: 360px; }
+
 .form-control[readonly]#upload_visible {
   background-color: #ffffff;
   cursor: pointer; }
 
-.c-forms-form-title {
-  display: none; }
+:root:root:root .cog-cognito--styled.cog-cognito--protect-css header {
+  display: none !important; }
 
 .cognito:not(.c-forms-actionBar) {
   max-width: 100% !important; }
@@ -480,78 +491,101 @@ textarea.form-control {
 .cognito .c-forms-form {
   background-color: #fff !important; }
 
-.cognito .c-forms-form .c-label {
-  font-size: 15px !important;
+html .cog-label,
+:root:root:root:root:root .cog-label {
+  font-size: 16px !important;
   font-weight: normal !important;
   font-family: -apple-system, BlinkMacSystemFont, "TT Hoves", "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
   padding-bottom: 10px !important;
   color: #263148 !important; }
 
+html .cog-cognito--styled input[type=text],
+html .cog-cognito--styled textarea,
+:root:root:root:root:root .cog-cognito--styled .el-textarea__inner,
+:root:root:root:root:root .cog-cognito--styled input[type=text],
+:root:root:root:root:root .cog-cognito--styled textarea,
+:root:root:root:root:root .cog-cognito--styled .el-textarea__inner,
 .cognito input[type=text],
 .cognito input[type=password],
 .cognito select,
 .cognito textarea,
 .c-payment .c-payment-field {
   border: none !important;
-  background-color: #EEF8FD; }
+  background-color: #EEF8FD !important;
+  background: #EEF8FD !important;
+  height: 46px !important;
+  padding: 12px 20px !important;
+  color: #263148 !important;
+  font-family: -apple-system, BlinkMacSystemFont, "TT Hoves", "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+  font-size: 15px !important; }
+
+html .cog-input,
+:root:root:root:root:root .cog-input {
+  margin-bottom: 0 !important;
+  padding-top: 0 !important; }
+
+html .cog-label,
+:root:root:root:root:root .cog-label {
+  padding: 0 0px 9px 0px !important;
+  line-height: 19px; }
+
+html .cog-row .cog-col:not(td),
+:root:root:root:root:root .cog-row .cog-col:not(td) {
+  margin-top: 0px !important;
+  margin-bottom: 20px !important; }
 
 .cognito .c-forms-form .c-dropdown select {
   background-color: #EEF8FD; }
 
-.cognito INPUT[type=text],
-.cognito INPUT[type=password],
-.cognito textarea,
-.cognito select {
-  height: 46px !important;
-  padding: 12px 20px !important;
-  color: #263148 !important; }
-
-.cognito input[type=text],
-.cognito input[type=password],
-.cognito textarea,
-.cognito .c-dropdown {
+html .cog-cognito--styled .cog-button--primary,
+:root:root:root:root:root .cog-cognito--styled .cog-button--primary {
+  width: auto !important;
+  float: left !important;
+  border: none !important;
+  background-color: #00A77E !important;
   font-family: -apple-system, BlinkMacSystemFont, "TT Hoves", "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
-  font-size: 15px !important;
-  color: #263148 !important; }
-
-.cognito #c-submit-button {
-  width: auto;
-  float: left;
-  border: none;
-  background-color: #00A77E;
-  font-family: -apple-system, BlinkMacSystemFont, "TT Hoves", "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-size: 18px;
-  padding: 11px 15px 14px;
-  color: #fff;
-  line-height: 21px;
-  border-radius: 0; }
+  font-size: 18px !important;
+  padding: 11px 15px 14px !important;
+  color: #fff !important;
+  line-height: 21px !important;
+  border-radius: 0 !important;
+  margin-top: 0 !important; }
 
 .cognito .c-span-24 .c-span-12 {
   width: 100% !important; }
 
-.cognito > :last-child a {
+html .cog-body:not(:first-child),
+:root:root:root:root:root .cog-body:not(:first-child) {
+  margin-top: 0 !important; }
+
+html .cog-page__navigation,
+:root:root:root:root:root .cog-page__navigation {
   position: absolute;
-  left: 150%; }
+  left: 0;
+  padding-top: 0 !important; }
+
+html .cog-cognito--styled textarea,
+:root:root:root:root:root .cog-cognito--styled .el-textarea__inner,
+:root:root:root:root:root .cog-cognito--styled textarea,
+:root:root:root:root:root .cog-cognito--styled .el-textarea__inner {
+  height: 140px !important; }
 
 .c-text-multiplelines {
   clear: none !important; }
-  .c-text-multiplelines textarea {
-    height: 140px !important; }
 
 .cognito .c-field, .cognito .c-section {
   float: none !important;
   display: inline-block; }
 
-.cognito .c-forms-form-main {
+html .cog-page,
+:root:root:root:root:root .cog-page {
   column-count: 2; }
-  .cognito .c-forms-form-main > :last-child textarea {
-    height: 240px !important; }
+
+#cog-6 {
+  height: 234px !important; }
 
 .cognito .c-field {
   padding: 0 0 20px 0 !important; }
-
-.cognito .c-label {
-  padding: 0 0px 2px 0px !important; }
 
 .cognito .c-editor {
   padding-right: 0px !important;
@@ -565,13 +599,28 @@ textarea.form-control {
 
 textarea:focus,
 input:focus,
-select:focus {
-  box-shadow: 0 0 0 1px #8ED8F8;
+select:focus,
+html .cog-cognito--styled .el-textarea__inner:focus,
+:root:root:root:root:root .cog-cognito--styled .el-textarea__inner:focus {
+  box-shadow: 0 0 0 1px #8ED8F8 !important;
   outline-color: transparent; }
 
-.cognito .c-forms-form .c-fileupload-dropzone span.c-fileupload-dropzone-message {
+html .cog-upload, :root:root:root:root:root .cog-upload {
+  position: relative; }
+
+html .cog-upload:not(.is-read-only),
+:root:root:root:root:root .cog-upload:not(.is-read-only),
+html .cog-upload .el-upload-dragger > div,
+:root:root:root:root:root .cog-upload .el-upload-dragger > div {
+  border: none !important;
+  padding: 0 !important; }
+
+html .cog-upload__drag-text,
+:root:root:root:root:root .cog-upload__drag-text {
   display: none; }
-.cognito .c-forms-form .c-fileupload-dropzone::after {
+
+html .cog-upload::after,
+:root:root:root:root:root .cog-upload::after {
   content: '';
   background-image: url(/img/attach.svg);
   background-repeat: no-repeat;
@@ -579,34 +628,64 @@ select:focus {
   height: 26px;
   position: absolute;
   background-size: 100%;
-  top: -5px;
+  top: -8px;
   right: 11px; }
-.cognito .c-forms-form .c-fileupload-dropzone .c-upload-button {
-  margin: 0;
+
+html .cog-cognito--styled .cog-upload .cog-button > span,
+:root:root:root:root:root .cog-cognito--styled .cog-upload .cog-button > span {
+  display: none !important; }
+
+html .cog-cognito .cog-upload .el-upload-dragger button,
+:root:root:root:root:root .cog-cognito .cog-upload .el-upload-dragger button {
+  border-radius: 0;
   width: 100%;
   height: 100%;
-  padding: 0; }
-  .cognito .c-forms-form .c-fileupload-dropzone .c-upload-button button {
-    width: 100%;
-    height: 100%;
-    text-align: left;
-    font-family: -apple-system, BlinkMacSystemFont, "TT Hoves", "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
-    background-color: #EEF8FD !important;
-    color: #808080 !important;
-    font-size: 0 !important;
-    border: none !important;
-    padding: 12px 20px !important; }
-    .cognito .c-forms-form .c-fileupload-dropzone .c-upload-button button::after {
-      content: 'Прикрепите файл';
-      font-size: 15px; }
+  text-align: left;
+  font-family: -apple-system, BlinkMacSystemFont, "TT Hoves", "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+  background-color: #EEF8FD !important;
+  color: #808080 !important;
+  border: none !important;
+  padding: 12px 20px !important;
+  line-height: 22px; }
+  html .cog-cognito .cog-upload .el-upload-dragger button:hover,
+  :root:root:root:root:root .cog-cognito .cog-upload .el-upload-dragger button:hover {
+    box-shadow: inset 0 0 0 1px #8ED8F8; }
+  html .cog-cognito .cog-upload .el-upload-dragger button::after,
+  :root:root:root:root:root .cog-cognito .cog-upload .el-upload-dragger button::after {
+    content: 'Прикрепите файл';
+    font-size: 15px; }
 
-.cognito .c-field.c-error > .c-validation,
-.cognito .c-validation-row.c-error > .c-validation,
-.cognito .c-section.c-error > .c-validation,
-.cognito .c-forms-error.c-error > .c-validation,
-.cognito .c-field.c-error > div.toggle-on > .c-validation {
+html .cog-upload__list .cog-upload__download-button,
+:root:root:root:root:root .cog-upload__list .cog-upload__download-button,
+html .cog-upload__list .cog-i-file,
+:root:root:root:root:root .cog-upload__list .cog-i-file {
+  display: none; }
+
+html .cog-upload__list, :root:root:root:root:root .cog-upload__list {
   position: absolute;
-  margin: 0; }
+  margin: 0 !important;
+  width: 100%;
+  top: 0;
+  background-color: #EEF8FD !important; }
+
+html .cog-upload__list li,
+:root:root:root:root:root .cog-upload__list li {
+  padding: 6px !important;
+  max-height: 46px; }
+
+html .cog-col.is-error:not(.cog-hidden-validation)::before,
+html .cog-col.is-error:not(.cog-hidden-validation)::after,
+:root:root:root:root:root .cog-col.is-error:not(.cog-hidden-validation)::before,
+:root:root:root:root:root .cog-col.is-error:not(.cog-hidden-validation)::after {
+  display: none !important; }
+
+html .cog-error-message,
+:root:root:root:root:root .cog-error-message {
+  background: none !important;
+  position: absolute;
+  margin: 0 !important;
+  color: red !important;
+  padding: 0 !important; }
 
 #send-modal .container {
   position: relative; }
@@ -616,8 +695,7 @@ select:focus {
   font-size: 15px;
   position: absolute;
   left: 210px;
-  /* top: -50px; */
-  bottom: 1em; }
+  bottom: -36px; }
 
 ::placeholder {
   color: #808080 !important;
@@ -632,13 +710,6 @@ select:focus {
   /* Microsoft Edge */
   color: #808080 !important; }
 
-.cognito .c-span-24 .c-span-24,
-.cognito.c-sml .c-sml-span-12 .c-sml-span-12 {
-  max-width: 360px; }
-
-.cognito .c-forms-form-main {
-  max-width: 800px; }
-
 .cognito .c-action {
   margin: 0 !important; }
 
@@ -649,13 +720,20 @@ select:focus {
 .cognito .c-button-section {
   padding: 0 !important; }
 
-.cognito .c-forms-form .c-forms-confirmation-message {
+html .cog-input, :root:root:root:root:root .cog-input.cog-confirmation__message {
   padding-left: 0 !important;
   font-family: -apple-system, BlinkMacSystemFont, "TT Hoves", "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
   color: #263148 !important;
   font-size: 1rem !important; }
-  .cognito .c-forms-form .c-forms-confirmation-message p {
+  html .cog-input p, :root:root:root:root:root .cog-input.cog-confirmation__message p {
     font-size: 1rem !important; }
+
+html .cog-branding--minimal,
+html .cog-branding--minimal *,
+:root:root:root:root:root .cog-branding--minimal,
+:root:root:root:root:root .cog-branding--minimal *,
+html .cog-abuse, :root:root:root:root:root .cog-abuse {
+  display: none; }
 
 /* HOME */
 .inverted-section {
@@ -959,7 +1037,8 @@ select:focus {
   .slick-slider {
     padding-right: 0; }
 
-  .cognito .c-forms-form-main {
+  html .cog-page,
+  :root:root:root:root:root .cog-page {
     column-count: 1; } }
 @media (max-width: 575px) {
   #about .btn-primary {

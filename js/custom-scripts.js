@@ -1,5 +1,5 @@
 ; (function () {
-  $(document).ready(function () {
+  jQuery(document).ready(function ($) {
 
     var animateScroll = function (_this, event) {
       event.preventDefault();

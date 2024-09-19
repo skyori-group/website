@@ -84,6 +84,9 @@
   <li class="nav-item">
     <a class="nav-link" href="/projects.html" data-dismiss="modal" aria-label="Close">Проекты и решения</a>
   </li>
+  <li class="nav-item"></li>
+    <a class="nav-link" href="/products.html" data-dismiss="modal" aria-label="Close">Продукты</a>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="/activities.html" data-dismiss="modal" aria-label="Close">Направления деятельности</a>
   </li>
@@ -101,33 +104,46 @@
     <div class="row">
       <div class="col-sm-6 col-12">
 
-        <div class="">
+        <div class="paragraph">
           <img src="/img/activities/gis.svg">
           <h1>Геоинформационные 
             и аналитические системы</h1>
           <p>Разрабатываем геопорталы и отраслевые ГИС-приложения, картографические сервисы доступа, обработки и анализа пространственных и семантических данных, интеграционные сервисы для использования в ГИС разнородной и распределенной информации, создаем карты по корпоративным стандартам</p>
         </div>
-        <div class="">
+        <div class="paragraph">
           <img src="/img/activities/web.svg">
           <h1>Веб-приложения</h1>
           <p>Мы обладаем обширным опытом в создании технически сложных и при этом удобных для пользователей веб-приложений. С некоторыми нашими решениями одновременно работают тысячи пользователей</p>
         </div>
-        <div class="">
+        <div class="paragraph">
           <img src="/img/activities/int.svg">
           <h1>Интеграционные решения</h1>
           <p>Создаем интеграционные решения, позволяющие организовать информационное взаимодействие в распределенной среде между различными внутренними и внешними системами и сервисами по единым для всей организации стандартам</p>
         </div>
       </div>
       <div class="col-sm-6 col-12">
-        <div class="">
+        <div class="paragraph">
           <img src="/img/activities/mob.svg">
           <h1>Мобильные приложения</h1>
           <p>С помощью разработанных нами приложений, множество пользователей получают возможность воспользоваться сервисами из любой точки мира с мобильных устройств</p>
         </div>
-        <div class="">
+        <div class="paragraph">
           <img src="/img/activities/bp.svg">
           <h1>Автоматизация бизнес-процессов</h1>
           <p>Решаем задачи автоматизации бизнес-процессов и внедрения систем электронного документооборота в организациях любого масштаба</p>
+        </div>
+        <div class="paragraph">
+          <h1>Решения с использованием технологий искусственного интеллекта</h1>
+          <p>Разработка решений с использованием технологий искусственного интеллекта – одно из активно развивающихся направлений деятельности компании. В нашей команде работают специалисты, имеющие научную степень и исследовательские научные работы в сфере искусственного интеллекта.<br>
+            <br>В своих решениях мы используем следующие направления искусственного интеллекта:
+            <ul>
+              <li>Обработка естественного языка (NLP)</li>
+              <li>Распознавание документов</li>
+              <li>Компьютерное зрение</li>
+              <li>Чат-боты и виртуальные помощники</li>
+              <li>ML (классификация объектов и другие задачи)</li>
+            </ul>
+          </p>
         </div>
       </div>
     </div>
@@ -187,6 +203,12 @@
       function linkToRandomBlogPost() {
         
           var allPosts =[];
+          
+            
+          
+            
+          
+            
           
             
           
@@ -299,6 +321,36 @@
             }
 
           
+            var pageUrl = "/products/prod1/".replace('/', '');
+            if (pageUrl == randomPostLink) {
+              var row = $('#advantages .row#team');
+              var modalLink = row.find('a');
+              modalLink.attr('data-target', `#${newRandomPageUrl}m`);
+              modalLink.text("");
+              row.find('img').attr('src', '/img/foto/');
+            }
+
+          
+            var pageUrl = "/products/prod2/".replace('/', '');
+            if (pageUrl == randomPostLink) {
+              var row = $('#advantages .row#team');
+              var modalLink = row.find('a');
+              modalLink.attr('data-target', `#${newRandomPageUrl}m`);
+              modalLink.text("");
+              row.find('img').attr('src', '/img/foto/');
+            }
+
+          
+            var pageUrl = "/products/prod3/".replace('/', '');
+            if (pageUrl == randomPostLink) {
+              var row = $('#advantages .row#team');
+              var modalLink = row.find('a');
+              modalLink.attr('data-target', `#${newRandomPageUrl}m`);
+              modalLink.text("");
+              row.find('img').attr('src', '/img/foto/');
+            }
+
+          
             var pageUrl = "/projects/proj1/".replace('/', '');
             if (pageUrl == randomPostLink) {
               var row = $('#advantages .row#team');
@@ -481,6 +533,12 @@
           
         
           var allPosts =[];
+          
+            
+          
+            
+          
+            
           
             
           
@@ -593,6 +651,36 @@
             }
 
           
+            var pageUrl = "/products/prod1/".replace('/', '');
+            if (pageUrl == randomPostLink) {
+              var row = $('#advantages .row#growth');
+              var modalLink = row.find('a');
+              modalLink.attr('data-target', `#${newRandomPageUrl}m`);
+              modalLink.text("");
+              row.find('img').attr('src', '/img/foto/');
+            }
+
+          
+            var pageUrl = "/products/prod2/".replace('/', '');
+            if (pageUrl == randomPostLink) {
+              var row = $('#advantages .row#growth');
+              var modalLink = row.find('a');
+              modalLink.attr('data-target', `#${newRandomPageUrl}m`);
+              modalLink.text("");
+              row.find('img').attr('src', '/img/foto/');
+            }
+
+          
+            var pageUrl = "/products/prod3/".replace('/', '');
+            if (pageUrl == randomPostLink) {
+              var row = $('#advantages .row#growth');
+              var modalLink = row.find('a');
+              modalLink.attr('data-target', `#${newRandomPageUrl}m`);
+              modalLink.text("");
+              row.find('img').attr('src', '/img/foto/');
+            }
+
+          
             var pageUrl = "/projects/proj1/".replace('/', '');
             if (pageUrl == randomPostLink) {
               var row = $('#advantages .row#growth');
@@ -775,6 +863,12 @@
           
         
           var allPosts =[];
+          
+            
+          
+            
+          
+            
           
             
           
@@ -885,6 +979,36 @@
             }
 
           
+            var pageUrl = "/products/prod1/".replace('/', '');
+            if (pageUrl == randomPostLink) {
+              var row = $('#advantages .row#tasks');
+              var modalLink = row.find('a');
+              modalLink.attr('data-target', `#${newRandomPageUrl}m`);
+              modalLink.text("");
+              row.find('img').attr('src', '/img/foto/');
+            }
+
+          
+            var pageUrl = "/products/prod2/".replace('/', '');
+            if (pageUrl == randomPostLink) {
+              var row = $('#advantages .row#tasks');
+              var modalLink = row.find('a');
+              modalLink.attr('data-target', `#${newRandomPageUrl}m`);
+              modalLink.text("");
+              row.find('img').attr('src', '/img/foto/');
+            }
+
+          
+            var pageUrl = "/products/prod3/".replace('/', '');
+            if (pageUrl == randomPostLink) {
+              var row = $('#advantages .row#tasks');
+              var modalLink = row.find('a');
+              modalLink.attr('data-target', `#${newRandomPageUrl}m`);
+              modalLink.text("");
+              row.find('img').attr('src', '/img/foto/');
+            }
+
+          
             var pageUrl = "/projects/proj1/".replace('/', '');
             if (pageUrl == randomPostLink) {
               var row = $('#advantages .row#tasks');
@@ -1067,6 +1191,12 @@
           
         
           var allPosts =[];
+          
+            
+          
+            
+          
+            
           
             
           
@@ -1177,6 +1307,36 @@
             }
 
           
+            var pageUrl = "/products/prod1/".replace('/', '');
+            if (pageUrl == randomPostLink) {
+              var row = $('#advantages .row#free');
+              var modalLink = row.find('a');
+              modalLink.attr('data-target', `#${newRandomPageUrl}m`);
+              modalLink.text("");
+              row.find('img').attr('src', '/img/foto/');
+            }
+
+          
+            var pageUrl = "/products/prod2/".replace('/', '');
+            if (pageUrl == randomPostLink) {
+              var row = $('#advantages .row#free');
+              var modalLink = row.find('a');
+              modalLink.attr('data-target', `#${newRandomPageUrl}m`);
+              modalLink.text("");
+              row.find('img').attr('src', '/img/foto/');
+            }
+
+          
+            var pageUrl = "/products/prod3/".replace('/', '');
+            if (pageUrl == randomPostLink) {
+              var row = $('#advantages .row#free');
+              var modalLink = row.find('a');
+              modalLink.attr('data-target', `#${newRandomPageUrl}m`);
+              modalLink.text("");
+              row.find('img').attr('src', '/img/foto/');
+            }
+
+          
             var pageUrl = "/projects/proj1/".replace('/', '');
             if (pageUrl == randomPostLink) {
               var row = $('#advantages .row#free');
@@ -1359,6 +1519,12 @@
           
         
           var allPosts =[];
+          
+            
+          
+            
+          
+            
           
             
           
@@ -1469,6 +1635,36 @@
             }
 
           
+            var pageUrl = "/products/prod1/".replace('/', '');
+            if (pageUrl == randomPostLink) {
+              var row = $('#advantages .row#schedule');
+              var modalLink = row.find('a');
+              modalLink.attr('data-target', `#${newRandomPageUrl}m`);
+              modalLink.text("");
+              row.find('img').attr('src', '/img/foto/');
+            }
+
+          
+            var pageUrl = "/products/prod2/".replace('/', '');
+            if (pageUrl == randomPostLink) {
+              var row = $('#advantages .row#schedule');
+              var modalLink = row.find('a');
+              modalLink.attr('data-target', `#${newRandomPageUrl}m`);
+              modalLink.text("");
+              row.find('img').attr('src', '/img/foto/');
+            }
+
+          
+            var pageUrl = "/products/prod3/".replace('/', '');
+            if (pageUrl == randomPostLink) {
+              var row = $('#advantages .row#schedule');
+              var modalLink = row.find('a');
+              modalLink.attr('data-target', `#${newRandomPageUrl}m`);
+              modalLink.text("");
+              row.find('img').attr('src', '/img/foto/');
+            }
+
+          
             var pageUrl = "/projects/proj1/".replace('/', '');
             if (pageUrl == randomPostLink) {
               var row = $('#advantages .row#schedule');
@@ -1677,6 +1873,12 @@
             
           
             
+          
+            
+          
+            
+          
+            
               
             
           
@@ -1752,6 +1954,36 @@
 
           
             var pageUrl = "/archive/v-acancy6/".replace('/', '');
+            if (pageUrl == randomPostLink) {
+              var row = $('#advantages .row#party');
+              var modalLink = row.find('a');
+              modalLink.attr('data-target', `#${newRandomPageUrl}m`);
+              modalLink.text("");
+              row.find('img').attr('src', '/img/foto/');
+            }
+
+          
+            var pageUrl = "/products/prod1/".replace('/', '');
+            if (pageUrl == randomPostLink) {
+              var row = $('#advantages .row#party');
+              var modalLink = row.find('a');
+              modalLink.attr('data-target', `#${newRandomPageUrl}m`);
+              modalLink.text("");
+              row.find('img').attr('src', '/img/foto/');
+            }
+
+          
+            var pageUrl = "/products/prod2/".replace('/', '');
+            if (pageUrl == randomPostLink) {
+              var row = $('#advantages .row#party');
+              var modalLink = row.find('a');
+              modalLink.attr('data-target', `#${newRandomPageUrl}m`);
+              modalLink.text("");
+              row.find('img').attr('src', '/img/foto/');
+            }
+
+          
+            var pageUrl = "/products/prod3/".replace('/', '');
             if (pageUrl == randomPostLink) {
               var row = $('#advantages .row#party');
               var modalLink = row.find('a');

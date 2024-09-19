@@ -45,7 +45,7 @@ a {
     text-decoration: none; }
 
 p {
-  margin-bottom: 1.6em;
+  margin-block: 1em;
   line-height: 1.222222em; }
 
 /* Navbar */
@@ -288,6 +288,19 @@ p {
     margin-top: -1.4em; }
   .modal-body .project-description .fill-item ul:not(:last-child) {
     margin-bottom: 1em; }
+
+.product-description {
+  margin-inline: 15px;
+  display: flex;
+  order: 3;
+  width: 100%; }
+  .product-description .fill-item {
+    width: 100%;
+    margin-top: 0.5em;
+    margin-bottom: 1.6em;
+    background-color: #EEF8FD; }
+    .product-description .fill-item p {
+      margin-inline: 5px; }
 
 .nums {
   margin-bottom: 2.4rem;
@@ -764,6 +777,11 @@ html .cog-abuse, :root:root:root:root:root .cog-abuse {
   #company p {
     margin-bottom: 40px; }
 
+#products p {
+  margin-bottom: 0.5em; }
+#products .paragraph {
+  margin-bottom: 1.6em; }
+
 .checked-list > div,
 .checked-list ul > li {
   margin-bottom: 1.33333333em;
@@ -819,6 +837,8 @@ html .cog-abuse, :root:root:root:root:root .cog-abuse {
 .fill-item {
   background-color: #E2F8F2;
   padding: 12px 15px; }
+  .fill-item P {
+    margin-block: 1em; }
   .fill-item p:last-child {
     margin: 0; }
   .fill-item h1 {
@@ -846,6 +866,11 @@ html .cog-abuse, :root:root:root:root:root .cog-abuse {
 #command .row {
   margin-bottom: 20px; }
 
+#command-welcome .story {
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 1.6em; }
+
 .business-formule {
   margin-top: 30px; }
   .business-formule > div {
@@ -864,14 +889,13 @@ html .cog-abuse, :root:root:root:root:root .cog-abuse {
   margin-bottom: 26px;
   width: 156px;
   height: 156px; }
-#activities p {
-  margin-bottom: 60px; }
 #activities .row {
   margin-bottom: 20px; }
+#activities .paragraph {
+  margin-bottom: 60px; }
 
 @media (min-width: 992px) {
   #activities p {
-    margin-bottom: 60px;
     margin-right: 80px; } }
 /* ACTIVITIES PAGE END*/
 @media (min-width: 992px) {
@@ -910,8 +934,7 @@ html .cog-abuse, :root:root:root:root:root .cog-abuse {
   #command-welcome {
     padding-bottom: 70px; }
     #command-welcome p {
-      max-width: 900px;
-      margin-bottom: 90px; } }
+      max-width: 900px; } }
 @media (min-width: 1024px) {
   #company-aboutus .col-sm-6,
   #command .col-sm-6,

@@ -1,2321 +1,351 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="ru">
   <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-687410-48"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'UA-687410-48');
-  </script>
-
-  <!-- Yandex.Metrika counter -->
-  <script type="text/javascript" >
-    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-    m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
-
-    ym(53178649, "init", {
-        clickmap:true,
-        trackLinks:true,
-        accurateTrackBounce:true,
-        webvisor:true
-    });
-  </script>
-  <noscript><div><img src="https://mc.yandex.ru/watch/53178649" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-  <!-- /Yandex.Metrika counter -->
-
-  <script type="text/javascript">!function(){var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src="https://vk.com/js/api/openapi.js?161",t.onload=function(){VK.Retargeting.Init("VK-RTRG-378499-aILNL"),VK.Retargeting.Hit()},document.head.appendChild(t)}();</script><noscript><img src="https://vk.com/rtrg?p=VK-RTRG-378499-aILNL" style="position:fixed; left:-999px;" alt=""/></noscript>
-
   <title>Skyori - Проекты</title>
-  <meta name="description" content="Skyori">
+  <meta name="description" content="Геоинформационные системы РГИС Пермского края Система предназначена для ведения единого банка пространственных данных, являющегося централизованным региональ...">
 
-  <!-- Bootstrap Core CSS -->
-  <link rel="stylesheet" href="/css/bootstrap/bootstrap.min.css">
-
-  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
-  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css"/>
-  <!-- <link rel="stylesheet" href="/assets/main.css"> -->
-  <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="/projects.html">
-  <link rel="alternate" type="application/rss+xml" title="Skyori" href="/feed.xml">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="/assets/css/main.css">
 
   <!-- Custom Fonts -->
-  <link rel="stylesheet" href="/fonts/font-awesome/css/regular.min.css">
-  <link rel="stylesheet" href="/fonts/font-awesome/css/all.min.css">
-  <link rel="stylesheet" href="/fonts/stylesheet.css">
+  <link rel="stylesheet" href="/assets/fonts/stylesheet.css">
+
+  <link rel="canonical" href="/projects">
+  <link rel="alternate" type="application/rss+xml" title="Skyori" href="/feed.xml">
+
+  <script src="/assets/js/dark-mode.js"></script>
+  <script src="/assets/js/year.js"></script>
+  <script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <link rel="stylesheet" href="/assets/fonts/stylesheet.css">
 </head>
 
 
 
-
   <body>
-    <!-- ===========================
- NAVBAR START
- =========================== -->
-<nav class="navbar navbar-expand-lg fixed-top">
-  <div class="container">
-    <a class="navbar-brand" href="/">
-        <img src="/img/logo.svg" class="logo d-inline-block align-top" alt="">
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
-      <svg width="30" height="19" viewBox="0 0 30 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M0 0H30V3H0V0ZM0 8H30V11H0V8ZM20 16H0V19H20V16Z" fill="#808080"/>
+    <svg xmlns="http://www.w3.org/2000/svg" width="0" height="0">
+  <defs>
+    <linearGradient id="paint0_linear_3180_2435" x1="0" y1="56.7642" x2="64.7041" y2="56.7642" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C7EAFB"/>
+      <stop offset="1" stop-color="#8ED8F8"/>
+    </linearGradient>
+    <linearGradient id="paint1_linear_3180_2435" x1="22.1055" y1="32.3417" x2="68.7012" y2="32.3417" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C7EAFB"/>
+      <stop offset="1" stop-color="#8ED8F8"/>
+    </linearGradient>
+    <linearGradient id="paint2_linear_3180_2435" x1="22.1055" y1="68.8519" x2="68.7012" y2="68.8519" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C7EAFB"/>
+      <stop offset="1" stop-color="#8ED8F8"/>
+    </linearGradient>
+  </defs>
 </svg>
 
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarContent">
-      <div class="nav-close text-right mb-5" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="true" aria-label="Toggle navigation"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M12.1848 9.57786L2.6389 0.0319214L0.517578 2.15324L10.0635 11.6992L0.517578 21.2451L2.6389 23.3664L12.1848 13.8205L21.7308 23.3664L23.8521 21.2451L14.3062 11.6992L23.8521 2.15324L21.7308 0.0319214L12.1848 9.57786Z"/>
+<header>
+  <nav class="navbar navbar-expand-lg fixed-top bg-body">
+    <div class="container-fluid">
+      <a class="navbar-brand ms-lg-4 py-3 ps-2 ps-lg-1" href="/">
+        <svg width="297" height="82" viewBox="0 0 298 83" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 34.4394C0 42.9836 3.12981 50.7836 8.27885 56.8009C21.7356 43.4942 50.1779 36.9952 64.8115 34.4394C50.1779 31.8836 21.7356 25.3846 8.27885 12.0779C3.12981 18.0952 0 25.8981 0 34.4394Z" fill="url(#paint0_linear_3180_2435)"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M34.4401 0C30.0872 0 25.942 0.839423 22.1055 2.31058C25.2093 6.19615 41.943 25.699 68.7785 32.3683C67.6997 14.3163 52.7632 0 34.4401 0Z" fill="url(#paint1_linear_3180_2435)"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M22.1055 66.5679C25.942 68.0391 30.0872 68.8785 34.4401 68.8785C52.7632 68.8785 67.6997 54.5622 68.7785 36.5103C41.943 43.1824 25.2093 62.6824 22.1055 66.5679Z" fill="url(#paint2_linear_3180_2435)"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M291.608 5.76731C288.377 5.76731 285.758 8.38654 285.758 11.6173C285.758 14.851 288.377 17.4702 291.608 17.4702C294.839 17.4702 297.458 14.851 297.458 11.6173C297.458 8.38654 294.839 5.76731 291.608 5.76731V5.76731ZM256.889 21.3498H264.345L265.225 25.296H265.667C267.152 23.6287 268.56 21.3498 274 21.3498H281.901V29.245H274.88C268.736 29.245 265.667 32.3171 265.667 38.3719V65.2277H256.889V21.3498ZM242.958 43.2872C242.958 34.1602 237.255 28.3708 229.792 28.3708C222.336 28.3708 216.633 34.1602 216.633 43.2872C216.633 52.4141 222.336 58.2064 229.792 58.2064C237.255 58.2064 242.958 52.4141 242.958 43.2872V43.2872ZM207.855 43.2871C207.855 29.6861 217.069 20.4698 229.793 20.4698C242.52 20.4698 251.736 29.6861 251.736 43.2871C251.736 56.891 242.52 66.1044 229.793 66.1044C217.069 66.1044 207.855 56.891 207.855 43.2871V43.2871ZM169.084 74.8796H177.862C179.618 74.8796 180.585 73.2123 180.85 72.2489L182.252 68.2998L164.264 21.3498H173.477L186.201 54.696H187.952L199.364 21.3498H208.58L189.273 75.321C187.517 80.1469 184.883 82.7806 178.303 82.7806H169.084V74.8796ZM126.824 3.79417H135.602V41.5336L154.032 21.3499H164.558L144.816 42.849L165.438 65.2278H154.906L135.602 44.1672V65.2278H126.824V3.79417ZM83.9146 46.3591C83.9146 52.0648 89.7069 57.3293 98.8339 57.3293C108.927 57.3293 112.876 53.3802 112.876 48.1158C112.876 43.6389 109.363 40.6562 102.344 39.3379L90.4944 37.1427C80.7531 35.3918 76.0166 29.3341 76.0166 20.911C76.0166 10.8148 84.3502 2.91965 97.9569 2.91965C113.312 2.91965 121.213 11.6947 121.213 22.662H111.996C111.996 16.9591 106.732 11.6947 97.9569 11.6947C89.6233 11.6947 85.23 15.9956 85.23 20.911C85.23 24.8572 87.7742 27.9322 94.4435 29.2447L104.098 31.0014C116.473 33.1937 122.09 38.3716 122.09 48.1158C122.09 58.2062 114.192 66.1043 98.8339 66.1043C83.4733 66.1043 74.7012 57.3293 74.7012 46.3591H83.9146ZM287.219 65.2277H295.997V21.3498H287.219V65.2277Z" fill="currentColor"/>
 </svg>
-</div>
-      <ul class="navbar-nav">
+
+      </a>
+      <button class="navbar-toggler border-0 collapsed shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Переключить навигацию">
+        <!-- <span class="navbar-toggler-icon"></span> -->
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav m-auto">
   <li class="nav-item">
-    <a class="nav-link" href="/company.html" data-dismiss="modal" aria-label="Close">Компания</a>
+    <a class="nav-link fw-medium" href="/company">Компания</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="/projects.html" data-dismiss="modal" aria-label="Close">Проекты и решения</a>
-  </li>
-  <li class="nav-item"></li>
-    <a class="nav-link" href="/products.html" data-dismiss="modal" aria-label="Close">Продукты</a>
+    <a class="nav-link fw-medium" href="/team">Команда</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="/activities.html" data-dismiss="modal" aria-label="Close">Направления деятельности</a>
+    <a class="nav-link fw-medium active" href="/projects">Проекты</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="/contacts.html" data-dismiss="modal" aria-label="Close">Контакты</a>
+    <a class="nav-link fw-medium" href="/products">Продукты</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link fw-medium" href="/contacts">Контакты</a>
   </li>
 </ul>
-    </div><!--.nav-collapse -->
+      </div>
+      <!-- <button onclick="toggleDarkMode()" class="btn btn-sm btn-outline-secondary">
+        🌙 / ☀️
+      </button> -->
+      <a class="btn btn-link text-uppercase me-3 d-none d-lg-block" href="mailto:info@skyori.ru">→Связаться с нами</a>
+    </div>
+  </nav>
+</header>
+
+    <main class="">
+      <section class="projects pt-3 pb-5 py-md-5">
+  <div class="container container-extended px-md-4">
+    <!-- <h2 class="text-center mb-5">Все проекты</h2> -->
+    <div class="mb-5">
+      <h2 class="mb-5 text-center">Геоинформационные системы</h2>
+      <div class="row g-5">
+        <div class="project-col col-md-6 col-lg-4 mb-md-4">
+          <div class="project-card d-flex h-100">
+            <div class="m-auto"><img src="/assets/images/projects/rgispkCov.png"></div>
+          </div>
+        </div>
+        
+        
+          <div class="project-col col-md-6 col-lg-4 mb-md-4">
+  <div class="project-card d-flex flex-column h-100">
+    <h3 class="mb-3"><i class="me-2"><svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M5.82402 12.288C5.70669 11.5946 5.39735 10.848 4.89602 10.048C4.39469 9.2373 3.68002 8.4853 2.75202 7.79197C1.83469 7.09863 0.917354 6.65597 2.10404e-05 6.46397V5.79197C0.906688 5.57863 1.77602 5.18397 2.60802 4.60797C3.45069 4.0213 4.15469 3.3173 4.72002 2.49597C5.29602 1.6533 5.66402 0.8213 5.82402 -3.33786e-05H6.49602C6.59202 0.533299 6.78402 1.08263 7.07202 1.64797C7.36002 2.20263 7.72802 2.73597 8.17602 3.24797C8.63469 3.7493 9.14669 4.20263 9.71202 4.60797C10.5547 5.2053 11.4134 5.59997 12.288 5.79197V6.46397C11.7014 6.5813 11.0934 6.8213 10.464 7.18397C9.84535 7.54663 9.26935 7.97863 8.73602 8.47997C8.20269 8.97063 7.76536 9.48797 7.42402 10.032C6.92269 10.832 6.61335 11.584 6.49602 12.288H5.82402Z" fill="#00A77E"/>
+</svg>
+</i> РГИС Пермского края</h3>
+    <p class="fs-4">Система предназначена для ведения единого банка пространственных данных, являющегося централизованным региональным источником актуальной и достоверной информации о геоинформационных ресурсах Пермского края.</p>
+    
+    <div class="mt-auto">
+      <a href="/rgis-perm" class="btn btn-link p-0">↗Подробнее</a>
+    </div>
   </div>
-</nav><!--navbar end-->   
-
-
-    <section id="projects">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+</div>
         
-          
+          <div class="project-col col-md-6 col-lg-4 mb-md-4">
+  <div class="project-card d-flex flex-column h-100">
+    <h3 class="mb-3"><i class="me-2"><svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M5.82402 12.288C5.70669 11.5946 5.39735 10.848 4.89602 10.048C4.39469 9.2373 3.68002 8.4853 2.75202 7.79197C1.83469 7.09863 0.917354 6.65597 2.10404e-05 6.46397V5.79197C0.906688 5.57863 1.77602 5.18397 2.60802 4.60797C3.45069 4.0213 4.15469 3.3173 4.72002 2.49597C5.29602 1.6533 5.66402 0.8213 5.82402 -3.33786e-05H6.49602C6.59202 0.533299 6.78402 1.08263 7.07202 1.64797C7.36002 2.20263 7.72802 2.73597 8.17602 3.24797C8.63469 3.7493 9.14669 4.20263 9.71202 4.60797C10.5547 5.2053 11.4134 5.59997 12.288 5.79197V6.46397C11.7014 6.5813 11.0934 6.8213 10.464 7.18397C9.84535 7.54663 9.26935 7.97863 8.73602 8.47997C8.20269 8.97063 7.76536 9.48797 7.42402 10.032C6.92269 10.832 6.61335 11.584 6.49602 12.288H5.82402Z" fill="#00A77E"/>
+</svg>
+</i> РГИС Республики Крым</h3>
+    <p class="fs-4">Система представляет собой единую точку доступа к геоинформационным ресурсам Республики Крым, содержит актуальные и достоверные пространственные данные ИОГВ и ОМСУ Республики Крым.</p>
+    
+    <div class="mt-auto">
+      <a href="/rgis-crym" class="btn btn-link p-0">↗Подробнее</a>
+    </div>
+  </div>
+</div>
         
-          
+          <div class="project-col col-md-6 col-lg-4 mb-md-4">
+  <div class="project-card d-flex flex-column h-100">
+    <h3 class="mb-3"><i class="me-2"><svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M5.82402 12.288C5.70669 11.5946 5.39735 10.848 4.89602 10.048C4.39469 9.2373 3.68002 8.4853 2.75202 7.79197C1.83469 7.09863 0.917354 6.65597 2.10404e-05 6.46397V5.79197C0.906688 5.57863 1.77602 5.18397 2.60802 4.60797C3.45069 4.0213 4.15469 3.3173 4.72002 2.49597C5.29602 1.6533 5.66402 0.8213 5.82402 -3.33786e-05H6.49602C6.59202 0.533299 6.78402 1.08263 7.07202 1.64797C7.36002 2.20263 7.72802 2.73597 8.17602 3.24797C8.63469 3.7493 9.14669 4.20263 9.71202 4.60797C10.5547 5.2053 11.4134 5.59997 12.288 5.79197V6.46397C11.7014 6.5813 11.0934 6.8213 10.464 7.18397C9.84535 7.54663 9.26935 7.97863 8.73602 8.47997C8.20269 8.97063 7.76536 9.48797 7.42402 10.032C6.92269 10.832 6.61335 11.584 6.49602 12.288H5.82402Z" fill="#00A77E"/>
+</svg>
+</i> Сервисы интеграции ГИС «Единая электронно-картографическая основа» и Национальной системы пространственных данных</h3>
+    <p class="fs-4">В рамках проекта была осуществлена разработка сервисов интеграции ГИС ЕЭКО и НСПД в части передачи растровых (цифровых ортофотопланов) и векторных данных (цифровых топографических карт).</p>
+    
+    <div class="mt-auto">
+      <a href="/integration-gis" class="btn btn-link p-0">↗Подробнее</a>
+    </div>
+  </div>
+</div>
         
-          
+          <div class="project-col col-md-6 col-lg-4 mb-md-4">
+  <div class="project-card d-flex flex-column h-100">
+    <h3 class="mb-3"><i class="me-2"><svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M5.82402 12.288C5.70669 11.5946 5.39735 10.848 4.89602 10.048C4.39469 9.2373 3.68002 8.4853 2.75202 7.79197C1.83469 7.09863 0.917354 6.65597 2.10404e-05 6.46397V5.79197C0.906688 5.57863 1.77602 5.18397 2.60802 4.60797C3.45069 4.0213 4.15469 3.3173 4.72002 2.49597C5.29602 1.6533 5.66402 0.8213 5.82402 -3.33786e-05H6.49602C6.59202 0.533299 6.78402 1.08263 7.07202 1.64797C7.36002 2.20263 7.72802 2.73597 8.17602 3.24797C8.63469 3.7493 9.14669 4.20263 9.71202 4.60797C10.5547 5.2053 11.4134 5.59997 12.288 5.79197V6.46397C11.7014 6.5813 11.0934 6.8213 10.464 7.18397C9.84535 7.54663 9.26935 7.97863 8.73602 8.47997C8.20269 8.97063 7.76536 9.48797 7.42402 10.032C6.92269 10.832 6.61335 11.584 6.49602 12.288H5.82402Z" fill="#00A77E"/>
+</svg>
+</i> Геоинформационная система ПАО «Транснефть»</h3>
+    <p class="fs-4">В рамках реализации проекта были решены следующие задачи:</p>
+    
+      <ul class="list-unstyled mt-3 mb-4 dotted-marker">
         
-          
+          <li class="d-flex mb-2 lh-sm align-items-start">Осуществлена миграция решений на импортонезависимое программное обеспечение;</li>
         
-          
-            
-            
-            
-              <div class="projects-item" data-toggle="modal" data-target="#projects-proj1-m">
-                <img src="/img/projects/rgispkCov.png"/>
-                <h1>РГИС Пермского края</h1>
-              </div>
-            
-          
+          <li class="d-flex mb-2 lh-sm align-items-start">Обеспечена возможность получения из внешних источников, хранения, отображения и анализа данных технических объектов</li>
         
-          
-            
-            
-            
-          
-        
-          
-            
-            
-            
-              <div class="projects-item" data-toggle="modal" data-target="#projects-proj3-m">
-                <img src="/img/projects/risogdpkCov.png"/>
-                <h1>РИСОГД Пермского края</h1>
-              </div>
-            
-          
-        
-          
-            
-            
-            
-          
-        
-          
-            
-            
-            
-              <div class="projects-item" data-toggle="modal" data-target="#projects-proj5-m">
-                <img src="/img/projects/risogdkoCov.png"/>
-                <h1>ГИСОГД Кировской области</h1>
-              </div>
-            
-          
-        
-          
-            
-            
-            
-          
-        
-          
-            
-            
-            
-              <div class="projects-item" data-toggle="modal" data-target="#projects-proj7-m">
-                <img src="/img/projects/gisogdrhCov.png"/>
-                <h1>ГИСОГД Республики Хакасия</h1>
-              </div>
-            
-          
-        
-          
-            
-            
-            
-          
-        
-          
-            
-            
-            
-              <div class="projects-item" data-toggle="modal" data-target="#projects-proj9-m">
-                <img src="/img/projects/norm1.png"/>
-                <h1>Система обеспечения законодательной деятельности Законодательного собрания Санкт-Петербурга</h1>
-              </div>
-            
-          
-        
-          
-            
-            
-            
-          
+      </ul>
+    
+    <div class="mt-auto">
+      <a href="/transneft" class="btn btn-link p-0">↗Подробнее</a>
+    </div>
+  </div>
+</div>
         
       </div>
-      <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+    </div>
+    <div class="mb-5">
+      <h2 class="mb-5 text-center">Специализированные отраслевые информационные системы</h2>
+      <div class="row g-5">
+        <div class="project-col col-md-6 col-lg-4 mb-md-4">
+          <div class="project-card d-flex h-100">
+            <div class="m-auto"><img src="/assets/images/projects/norm1.png"></div>
+          </div>
+        </div>
         
-          
         
-          
+          <div class="project-col col-md-6 col-lg-4 mb-md-4">
+  <div class="project-card d-flex flex-column h-100">
+    <h3 class="mb-3"><i class="me-2"><svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M5.82402 12.288C5.70669 11.5946 5.39735 10.848 4.89602 10.048C4.39469 9.2373 3.68002 8.4853 2.75202 7.79197C1.83469 7.09863 0.917354 6.65597 2.10404e-05 6.46397V5.79197C0.906688 5.57863 1.77602 5.18397 2.60802 4.60797C3.45069 4.0213 4.15469 3.3173 4.72002 2.49597C5.29602 1.6533 5.66402 0.8213 5.82402 -3.33786e-05H6.49602C6.59202 0.533299 6.78402 1.08263 7.07202 1.64797C7.36002 2.20263 7.72802 2.73597 8.17602 3.24797C8.63469 3.7493 9.14669 4.20263 9.71202 4.60797C10.5547 5.2053 11.4134 5.59997 12.288 5.79197V6.46397C11.7014 6.5813 11.0934 6.8213 10.464 7.18397C9.84535 7.54663 9.26935 7.97863 8.73602 8.47997C8.20269 8.97063 7.76536 9.48797 7.42402 10.032C6.92269 10.832 6.61335 11.584 6.49602 12.288H5.82402Z" fill="#00A77E"/>
+</svg>
+</i> РИСОГД Пермского края</h3>
+    <p class="fs-4">Система предназначена для решения задач органов власти в области градостроительства и архитектуры. Облегчает поиск и обработку информации, предоставляет широкие возможности для анализа и мониторинга градостроительной деятельности.</p>
+    
+    <div class="mt-auto">
+      <a href="/risogdpk" class="btn btn-link p-0">↗Подробнее</a>
+    </div>
+  </div>
+</div>
         
-          
+          <div class="project-col col-md-6 col-lg-4 mb-md-4">
+  <div class="project-card d-flex flex-column h-100">
+    <h3 class="mb-3"><i class="me-2"><svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M5.82402 12.288C5.70669 11.5946 5.39735 10.848 4.89602 10.048C4.39469 9.2373 3.68002 8.4853 2.75202 7.79197C1.83469 7.09863 0.917354 6.65597 2.10404e-05 6.46397V5.79197C0.906688 5.57863 1.77602 5.18397 2.60802 4.60797C3.45069 4.0213 4.15469 3.3173 4.72002 2.49597C5.29602 1.6533 5.66402 0.8213 5.82402 -3.33786e-05H6.49602C6.59202 0.533299 6.78402 1.08263 7.07202 1.64797C7.36002 2.20263 7.72802 2.73597 8.17602 3.24797C8.63469 3.7493 9.14669 4.20263 9.71202 4.60797C10.5547 5.2053 11.4134 5.59997 12.288 5.79197V6.46397C11.7014 6.5813 11.0934 6.8213 10.464 7.18397C9.84535 7.54663 9.26935 7.97863 8.73602 8.47997C8.20269 8.97063 7.76536 9.48797 7.42402 10.032C6.92269 10.832 6.61335 11.584 6.49602 12.288H5.82402Z" fill="#00A77E"/>
+</svg>
+</i> АИСОГД г. Перми</h3>
+    <p class="fs-4">Автоматизированная информационная система обеспечения градостроительной деятельности г. Перми – это единое информационное пространство, обеспечивающее комплексную автоматизацию процессов подготовки, хранения, передачи, представления и анализа данных в области градостроительства на территории г. Перми.</p>
+    
+    <div class="mt-auto">
+      <a href="/aisogd" class="btn btn-link p-0">↗Подробнее</a>
+    </div>
+  </div>
+</div>
         
-          
+          <div class="project-col col-md-6 col-lg-4 mb-md-4">
+  <div class="project-card d-flex flex-column h-100">
+    <h3 class="mb-3"><i class="me-2"><svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M5.82402 12.288C5.70669 11.5946 5.39735 10.848 4.89602 10.048C4.39469 9.2373 3.68002 8.4853 2.75202 7.79197C1.83469 7.09863 0.917354 6.65597 2.10404e-05 6.46397V5.79197C0.906688 5.57863 1.77602 5.18397 2.60802 4.60797C3.45069 4.0213 4.15469 3.3173 4.72002 2.49597C5.29602 1.6533 5.66402 0.8213 5.82402 -3.33786e-05H6.49602C6.59202 0.533299 6.78402 1.08263 7.07202 1.64797C7.36002 2.20263 7.72802 2.73597 8.17602 3.24797C8.63469 3.7493 9.14669 4.20263 9.71202 4.60797C10.5547 5.2053 11.4134 5.59997 12.288 5.79197V6.46397C11.7014 6.5813 11.0934 6.8213 10.464 7.18397C9.84535 7.54663 9.26935 7.97863 8.73602 8.47997C8.20269 8.97063 7.76536 9.48797 7.42402 10.032C6.92269 10.832 6.61335 11.584 6.49602 12.288H5.82402Z" fill="#00A77E"/>
+</svg>
+</i> ГИСОГД Кировской области</h3>
+    <p class="fs-4">Система предназначена для формирования единого информационного пространства Кировской области, содержащего сведения о территории, порядке ее существующего и планируемого использования и обеспечение ведения пространственных данных Кировской области, доступа ИОГВ и ОМСУ Кировской области, граждан и организаций к пространственным данным о градостроительной деятельности на территории Кировской области.</p>
+    
+    <div class="mt-auto">
+      <a href="/risogd-kirov" class="btn btn-link p-0">↗Подробнее</a>
+    </div>
+  </div>
+</div>
         
-          
-            
-            
-              
-              
-            
-          
+          <div class="project-col col-md-6 col-lg-4 mb-md-4">
+  <div class="project-card d-flex flex-column h-100">
+    <h3 class="mb-3"><i class="me-2"><svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M5.82402 12.288C5.70669 11.5946 5.39735 10.848 4.89602 10.048C4.39469 9.2373 3.68002 8.4853 2.75202 7.79197C1.83469 7.09863 0.917354 6.65597 2.10404e-05 6.46397V5.79197C0.906688 5.57863 1.77602 5.18397 2.60802 4.60797C3.45069 4.0213 4.15469 3.3173 4.72002 2.49597C5.29602 1.6533 5.66402 0.8213 5.82402 -3.33786e-05H6.49602C6.59202 0.533299 6.78402 1.08263 7.07202 1.64797C7.36002 2.20263 7.72802 2.73597 8.17602 3.24797C8.63469 3.7493 9.14669 4.20263 9.71202 4.60797C10.5547 5.2053 11.4134 5.59997 12.288 5.79197V6.46397C11.7014 6.5813 11.0934 6.8213 10.464 7.18397C9.84535 7.54663 9.26935 7.97863 8.73602 8.47997C8.20269 8.97063 7.76536 9.48797 7.42402 10.032C6.92269 10.832 6.61335 11.584 6.49602 12.288H5.82402Z" fill="#00A77E"/>
+</svg>
+</i> ГИСОГД Республики Хакасия</h3>
+    <p class="fs-4">Система предназначена для формирования единого информационного пространства Республики Хакасия, содержащего сведения о территории, порядке ее существующего и планируемого использования и обеспечение ведения пространственных данных Республики Хакасия, доступа ИОГВ и ОМСУ Республики Хакасия, граждан и организаций к пространственным данным о градостроительной деятельности на территории Республики Хакасия.</p>
+    
+    <div class="mt-auto">
+      <a href="/gisogd-rh" class="btn btn-link p-0">↗Подробнее</a>
+    </div>
+  </div>
+</div>
         
-          
-            
-            
-              
-              
-                <div class="projects-item" data-toggle="modal" data-target="#projects-proj2-m">
-                  <img src="/img/projects/rgisrkCov.png"/>
-                  <h1>РГИС Республики Крым</h1>
-                </div>
-              
-            
-          
+          <div class="project-col col-md-6 col-lg-4 mb-md-4">
+  <div class="project-card d-flex flex-column h-100">
+    <h3 class="mb-3"><i class="me-2"><svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M5.82402 12.288C5.70669 11.5946 5.39735 10.848 4.89602 10.048C4.39469 9.2373 3.68002 8.4853 2.75202 7.79197C1.83469 7.09863 0.917354 6.65597 2.10404e-05 6.46397V5.79197C0.906688 5.57863 1.77602 5.18397 2.60802 4.60797C3.45069 4.0213 4.15469 3.3173 4.72002 2.49597C5.29602 1.6533 5.66402 0.8213 5.82402 -3.33786e-05H6.49602C6.59202 0.533299 6.78402 1.08263 7.07202 1.64797C7.36002 2.20263 7.72802 2.73597 8.17602 3.24797C8.63469 3.7493 9.14669 4.20263 9.71202 4.60797C10.5547 5.2053 11.4134 5.59997 12.288 5.79197V6.46397C11.7014 6.5813 11.0934 6.8213 10.464 7.18397C9.84535 7.54663 9.26935 7.97863 8.73602 8.47997C8.20269 8.97063 7.76536 9.48797 7.42402 10.032C6.92269 10.832 6.61335 11.584 6.49602 12.288H5.82402Z" fill="#00A77E"/>
+</svg>
+</i> Цифровой сервис по технологическому присоединению к инженерным сетям «Техприс»</h3>
+    <p class="fs-4">Сервис предназначен для юридических лиц и ресурсоснабжающих организаций. Использование сервиса «Техприс» позволяет упростить и ускорить процедуру технологического присоединения к электросетям, газо-, тепло-, водоснабжению и водоотведению.</p>
+    
+    <div class="mt-auto">
+      <a href="/techpris" class="btn btn-link p-0">↗Подробнее</a>
+    </div>
+  </div>
+</div>
         
-          
-            
-            
-              
-              
-            
-          
+          <div class="project-col col-md-6 col-lg-4 mb-md-4">
+  <div class="project-card d-flex flex-column h-100">
+    <h3 class="mb-3"><i class="me-2"><svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M5.82402 12.288C5.70669 11.5946 5.39735 10.848 4.89602 10.048C4.39469 9.2373 3.68002 8.4853 2.75202 7.79197C1.83469 7.09863 0.917354 6.65597 2.10404e-05 6.46397V5.79197C0.906688 5.57863 1.77602 5.18397 2.60802 4.60797C3.45069 4.0213 4.15469 3.3173 4.72002 2.49597C5.29602 1.6533 5.66402 0.8213 5.82402 -3.33786e-05H6.49602C6.59202 0.533299 6.78402 1.08263 7.07202 1.64797C7.36002 2.20263 7.72802 2.73597 8.17602 3.24797C8.63469 3.7493 9.14669 4.20263 9.71202 4.60797C10.5547 5.2053 11.4134 5.59997 12.288 5.79197V6.46397C11.7014 6.5813 11.0934 6.8213 10.464 7.18397C9.84535 7.54663 9.26935 7.97863 8.73602 8.47997C8.20269 8.97063 7.76536 9.48797 7.42402 10.032C6.92269 10.832 6.61335 11.584 6.49602 12.288H5.82402Z" fill="#00A77E"/>
+</svg>
+</i> Информационная система управления землями Пермского края</h3>
+    <p class="fs-4">Система предназначена для комплексной автоматизации и информационно-аналитического обеспечения процессов деятельности Министерства по управлению имуществом и градостроительной деятельностью Пермского края, ОМСУ Пермского края по управлению и распоряжением землями и деятельности Центра технической инвентаризации и кадастровой оценки Пермского края и его территориальных подразделений.</p>
+    
+    <div class="mt-auto">
+      <a href="/uzpk" class="btn btn-link p-0">↗Подробнее</a>
+    </div>
+  </div>
+</div>
         
-          
-            
-            
-              
-              
-                <div class="projects-item" data-toggle="modal" data-target="#projects-proj4-m">
-                  <img src="/img/projects/aisuzCov.png"/>
-                  <h1>АИС «Управление землями»</h1>
-                </div>
-              
-            
-          
+          <div class="project-col col-md-6 col-lg-4 mb-md-4">
+  <div class="project-card d-flex flex-column h-100">
+    <h3 class="mb-3"><i class="me-2"><svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M5.82402 12.288C5.70669 11.5946 5.39735 10.848 4.89602 10.048C4.39469 9.2373 3.68002 8.4853 2.75202 7.79197C1.83469 7.09863 0.917354 6.65597 2.10404e-05 6.46397V5.79197C0.906688 5.57863 1.77602 5.18397 2.60802 4.60797C3.45069 4.0213 4.15469 3.3173 4.72002 2.49597C5.29602 1.6533 5.66402 0.8213 5.82402 -3.33786e-05H6.49602C6.59202 0.533299 6.78402 1.08263 7.07202 1.64797C7.36002 2.20263 7.72802 2.73597 8.17602 3.24797C8.63469 3.7493 9.14669 4.20263 9.71202 4.60797C10.5547 5.2053 11.4134 5.59997 12.288 5.79197V6.46397C11.7014 6.5813 11.0934 6.8213 10.464 7.18397C9.84535 7.54663 9.26935 7.97863 8.73602 8.47997C8.20269 8.97063 7.76536 9.48797 7.42402 10.032C6.92269 10.832 6.61335 11.584 6.49602 12.288H5.82402Z" fill="#00A77E"/>
+</svg>
+</i> АИС «Управление землями»</h3>
+    <p class="fs-4">Система предназначена для комплексной автоматизации и информационно-аналитического обеспечения процессов деятельности по управлению и распоряжению земельными участками, находящимися в муниципальной собственности, и участками, собственность на которые не разграничена.</p>
+    
+    <div class="mt-auto">
+      <a href="/aisuz" class="btn btn-link p-0">↗Подробнее</a>
+    </div>
+  </div>
+</div>
         
-          
-            
-            
-              
-              
-            
-          
+          <div class="project-col col-md-6 col-lg-4 mb-md-4">
+  <div class="project-card d-flex flex-column h-100">
+    <h3 class="mb-3"><i class="me-2"><svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M5.82402 12.288C5.70669 11.5946 5.39735 10.848 4.89602 10.048C4.39469 9.2373 3.68002 8.4853 2.75202 7.79197C1.83469 7.09863 0.917354 6.65597 2.10404e-05 6.46397V5.79197C0.906688 5.57863 1.77602 5.18397 2.60802 4.60797C3.45069 4.0213 4.15469 3.3173 4.72002 2.49597C5.29602 1.6533 5.66402 0.8213 5.82402 -3.33786e-05H6.49602C6.59202 0.533299 6.78402 1.08263 7.07202 1.64797C7.36002 2.20263 7.72802 2.73597 8.17602 3.24797C8.63469 3.7493 9.14669 4.20263 9.71202 4.60797C10.5547 5.2053 11.4134 5.59997 12.288 5.79197V6.46397C11.7014 6.5813 11.0934 6.8213 10.464 7.18397C9.84535 7.54663 9.26935 7.97863 8.73602 8.47997C8.20269 8.97063 7.76536 9.48797 7.42402 10.032C6.92269 10.832 6.61335 11.584 6.49602 12.288H5.82402Z" fill="#00A77E"/>
+</svg>
+</i> Система автоматизации законотворческой деятельности Законодательного Собрания Пермского края</h3>
+    <p class="fs-4">Система предназначена для автоматизации процессов законотворчества и нормотворчества, обеспечения возможности удаленной работы с документами и переход к безбумажным процессам подготовки и проведения заседаний. Позволяет организовать единое информационное пространство законотворческой и нормотворческой деятельности в рамках Пермского края. </p>
+    
+    <div class="mt-auto">
+      <a href="/zspk" class="btn btn-link p-0">↗Подробнее</a>
+    </div>
+  </div>
+</div>
         
-          
-            
-            
-              
-              
-                <div class="projects-item" data-toggle="modal" data-target="#projects-proj6-m">
-                  <img src="/img/projects/aisogdCov.png"/>
-                  <h1>АИСОГД г. Перми</h1>
-                </div>
-              
-            
-          
-        
-          
-            
-            
-              
-              
-            
-          
-        
-          
-            
-            
-              
-              
-                <div class="projects-item" data-toggle="modal" data-target="#projects-proj8-m">
-                  <img src="/img/projects/norm1.png"/>
-                  <h1>Система автоматизации законотворческой деятельности Законодательного Собрания Пермского края</h1>
-                </div>
-              
-            
-          
-        
-          
-            
-            
-              
-              
-            
-          
-        
-          
-            
-            
-          
+          <div class="project-col col-md-6 col-lg-4 mb-md-4">
+  <div class="project-card d-flex flex-column h-100">
+    <h3 class="mb-3"><i class="me-2"><svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M5.82402 12.288C5.70669 11.5946 5.39735 10.848 4.89602 10.048C4.39469 9.2373 3.68002 8.4853 2.75202 7.79197C1.83469 7.09863 0.917354 6.65597 2.10404e-05 6.46397V5.79197C0.906688 5.57863 1.77602 5.18397 2.60802 4.60797C3.45069 4.0213 4.15469 3.3173 4.72002 2.49597C5.29602 1.6533 5.66402 0.8213 5.82402 -3.33786e-05H6.49602C6.59202 0.533299 6.78402 1.08263 7.07202 1.64797C7.36002 2.20263 7.72802 2.73597 8.17602 3.24797C8.63469 3.7493 9.14669 4.20263 9.71202 4.60797C10.5547 5.2053 11.4134 5.59997 12.288 5.79197V6.46397C11.7014 6.5813 11.0934 6.8213 10.464 7.18397C9.84535 7.54663 9.26935 7.97863 8.73602 8.47997C8.20269 8.97063 7.76536 9.48797 7.42402 10.032C6.92269 10.832 6.61335 11.584 6.49602 12.288H5.82402Z" fill="#00A77E"/>
+</svg>
+</i> Система обеспечения законодательной деятельности Законодательного собрания Санкт-Петербурга</h3>
+    <p class="fs-4">Система предназначена для автоматизации и структурирования процессов сбора, обработки и хранения информации о законотворческой деятельности Законодательного Собрания Санкт-Петербурга и работе органов Законодательного Собрания Санкт-Петербурга.</p>
+    
+    <div class="mt-auto">
+      <a href="/normo" class="btn btn-link p-0">↗Подробнее</a>
+    </div>
+  </div>
+</div>
         
       </div>
     </div>
   </div>
 </section>
-
-
-  
-
-  
-
-  
-
-  
-
-  
-    
-    <div class="modal fade modal-project" id="projects-proj1-m" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <!-- ===========================
- NAVBAR START
- =========================== -->
-<nav class="navbar navbar-expand-lg fixed-top">
-  <div class="container">
-    <a class="navbar-brand" href="/">
-        <img src="/img/logo.svg" class="logo d-inline-block align-top" alt="">
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
-      <svg width="30" height="19" viewBox="0 0 30 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M0 0H30V3H0V0ZM0 8H30V11H0V8ZM20 16H0V19H20V16Z" fill="#808080"/>
-</svg>
-
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarContent">
-      <div class="nav-close text-right mb-5" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="true" aria-label="Toggle navigation"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M12.1848 9.57786L2.6389 0.0319214L0.517578 2.15324L10.0635 11.6992L0.517578 21.2451L2.6389 23.3664L12.1848 13.8205L21.7308 23.3664L23.8521 21.2451L14.3062 11.6992L23.8521 2.15324L21.7308 0.0319214L12.1848 9.57786Z"/>
-</svg>
-</div>
-      <ul class="navbar-nav">
-  <li class="nav-item">
-    <a class="nav-link" href="/company.html" data-dismiss="modal" aria-label="Close">Компания</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/projects.html" data-dismiss="modal" aria-label="Close">Проекты и решения</a>
-  </li>
-  <li class="nav-item"></li>
-    <a class="nav-link" href="/products.html" data-dismiss="modal" aria-label="Close">Продукты</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/activities.html" data-dismiss="modal" aria-label="Close">Направления деятельности</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/contacts.html" data-dismiss="modal" aria-label="Close">Контакты</a>
-  </li>
-</ul>
-    </div><!--.nav-collapse -->
-  </div>
-</nav><!--navbar end-->   
-
-          <div class="modal-body">
-            <div class="container">
-              <div class="row justify-content-between">
-                <div class="col-lg-12 mb-3">
-                  <a href='#' data-dismiss="modal" aria-label="Close">
-                    Вернуться к списку проектов
-                  </a>
-                </div>
-                
-<div class="col-lg-6 project-title">
-    
-<h1 id="ргис-пермского-края">РГИС Пермского края</h1>
-
-</div>
-
-<div class="col-lg-6 project-description">
-  
-  <div class="fill-item">
-    
-<p>Государственный заказчик – Министерство информационного развития и связи Пермского края.</p>
-
-<p>Функциональный заказчик – Министерство природных ресурсов, лесного хозяйства и экологии Пермского края.</p>
-
-  </div>
-  
-</div>
-
-<div class="col-lg-6">
-  
-<h6 id="назначение">Назначение:</h6>
-
-</div>
-<div class="col-lg-6">
-</div>
-<div class="col-lg-6 checked-list">
-  
-<ul>
-  <li>Создание единого банка пространственных данных, являющегося централизованным региональным источником актуальной и достоверной информации о геоинформационных ресурсах Пермского края</li>
-  <li>Создание единой нормативно закрепленной системы сбора, хранения, актуализации и анализа пространственных (географических) данных</li>
-  <li>Доступ к пространственным данным открытого характера, хранящимся в РГИС ПК, неограниченному кругу лиц через общедоступный геопортал</li>
-</ul>
-
-</div>
-
-<div class="col-lg-6 checked-list">
-    
-<ul>
-  <li>Обеспечение ИОГВ ПК и ОМСУ ПК пространственной информацией для оперативного анализа и принятия решений</li>
-  <li>Обеспечение санкционированного доступа к пространственным данным с использованием геоинформационных технологий сбора, обработки, анализа и представления</li>
-  <li>Обеспечение полноты, достоверности и непротиворечивости данных</li>
-</ul>
-
-</div>
-
-<div class="col-lg-6 mt-sm-4">
-  
-<h6 id="функции">Функции:</h6>
-
-</div>
-
-<div class="col-lg-6 order-lg-0 order-2">
-  
-
-</div>
-
-<div class="col-lg-6 mb-4 order-lg-0 order-1">
-  <div class="fill-item">
-    
-<ul>
-  <li>Создание, изменение, обновление, удаление, хранение пространственных данных</li>
-  <li>Создание и настройка новых слоев и карт с пространственными данными, публикация карт и слоев в открытом доступе на общедоступном геопортале</li>
-  <li>Отображение пространственных данных в виде объектов тематических слоев на карте. Возможность настройки отображения пространственных данных на карте</li>
-</ul>
-
-
-  </div>
-</div>
-
-<div class="col-lg-6 mb-4 order-lg-0 order-2">
-  <div class="fill-item">
-    
-<ul>
-  <li>Взаимодействие с ЕГРН (Единый государственный реестр недвижимости) в части загрузки сведений ЕГРН из XML файлов кадастровых планов территорий, межевых планов земельных участков</li>
-  <li>Интеграция со сторонними системами посредством API-функций</li>
-  <li>Интеграция с подсистемой космического мониторинга РГИС “Умный лес”</li>
-  <li>Интеграция с ИАС “Лесной диспетчер Пермского края” в части получения информации о лесных пожарах</li>
-</ul>
-
-
-  </div>
-</div>
-
-<div class="product-description">
-  
-</div>
-
-<div class="col-lg-6 mb-4 order-lg-0 order-2">
-  <img src="/img/projects/rgispk1.png" />
-</div>
-
-<div class="col-lg-6 mb-4 order-lg-0 order-2">
-  <img src="/img/projects/rgispk2.png" />
-</div>
-
-<div class="col-lg-6 mb-4 order-lg-0 order-2">
-  <img src="/img/projects/rgispk3.png" />
-</div>
-
-<div class="col-lg-6 mb-4 order-lg-0 order-2">
-  <img src="/img/projects/rgispk4.png" />
-</div>
-
-<div class="col-lg-6 mb-4 order-lg-0 order-2">
-  <img src="/img/projects/rgispk5.png" />
-</div>
-
-<div class="col-lg-6 mb-4 order-lg-0 order-2">
-  <img src="/img/projects/rgispk6.png" />
-</div>
-
-<div class="col-lg-6 mb-4 order-lg-0 order-2">
-  <img src="/img/projects/rgispk7.png" />
-</div>
-
-<div class="col-lg-6 mb-4 order-lg-0 order-2">
-  <img src="/img/projects/rgispk8.png" />
-</div>
-
-              </div>
-            </div>
-          </div>
-          <!-- Footer -->
-<footer class="page-footer font-small blue">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-4 col-md-4 col-sm-6 f-brand">
-          <img src="/img/logo-footer.svg" class="mr-1"/>
-          <div><span>© Skyori, 2026г.</span>
-            Россия, г. Пермь<br>
-            ш. Космонавтов, 111И, к1<br>
-            ул. Стахановская, 45<br>
-          </div>
-      </div>
-      <div class="col-lg-4 col-md-4 col-sm-6">
-        <!-- <a href="tel:73422385300">+7 (342) 238 53 00</a><br> -->
-        <a href="mailto:info@skyori.ru">info@skyori.ru</a>
-      </div>
-      <div class="col-lg-4 col-md-4 col-sm-6">
-        <!-- <a href="https://www.facebook.com/skyorigroup/" _target="blank"><svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M8.83065 0H23.169C28.0386 0 32.0002 3.96162 32 8.83084V23.1692C32 28.0384 28.0386 32 23.169 32H8.83065C3.96143 32 0 28.0386 0 23.1692V8.83084C0 3.96162 3.96143 0 8.83065 0ZM23.1692 29.1608C26.473 29.1608 29.161 26.473 29.161 23.1692H29.1608V8.83084C29.1608 5.52716 26.4728 2.8392 23.169 2.8392H8.83065C5.52697 2.8392 2.8392 5.52716 2.8392 8.83084V23.1692C2.8392 26.473 5.52697 29.161 8.83065 29.1608H23.1692Z" fill="#00A77E"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M7 16.0002C7 11.5888 10.813 8 15.5 8C20.187 8 24 11.5888 24 16.0002C24 20.4114 20.187 24 15.5 24C10.813 24 7 20.4114 7 16.0002ZM9.9268 16C9.9268 18.8922 12.4271 21.2451 15.5 21.2451C18.5729 21.2451 21.0732 18.8922 21.0732 16C21.0732 13.1076 18.5731 10.7545 15.5 10.7545C12.4269 10.7545 9.9268 13.1076 9.9268 16Z" fill="#00A77E"/>
-<path d="M24 6C23.4745 6 22.9584 6.21273 22.5873 6.58545C22.2144 6.95636 22 7.47273 22 8C22 8.52564 22.2145 9.04182 22.5873 9.41455C22.9582 9.78545 23.4745 10 24 10C24.5273 10 25.0418 9.78545 25.4145 9.41455C25.7873 9.04182 26 8.52545 26 8C26 7.47273 25.7873 6.95636 25.4145 6.58545C25.0436 6.21273 24.5273 6 24 6Z" fill="#00A77E"/>
-</svg>
-</a> -->
-        <!-- <a href="https://www.facebook.com/skyorigroup/" target="_blank"><i class="fab fa-facebook-f fa-2x"></i></a> -->
-        <a href="https://vk.com/skyori" target="_blank"><i class="fab fa-vk fa-2x" aria-hidden="true"></i></a>
-      </div>
+    </main>
+    <footer class="pt-4">
+  <div class="container-fluid text-center">
+    <div class="d-flex align-items-center justify-content-center mb-4 pb-2 mb-md-5 pb-md-4">
+      <hr class="d-none d-md-block w-100">
+      
+        <a href="mailto:info@skyori.ru" class="btn btn-primary mx-4 text-nowrap">
+          Связаться с нами
+        </a>
+      
+      <hr class="d-none d-md-block w-100">
     </div>
+    <div class="pt-2 mb-2">
+      <svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M14 40.642C16.2999 41.5073 18.7901 42 21.3998 42C32.3921 42 41.3528 33.5964 42 23C25.8991 26.9165 15.8603 38.3629 14 40.642ZM42 19C41.3528 8.40456 32.3921 0 21.3998 0C18.7901 0 16.2999 0.494386 14 1.35956C15.8603 3.63848 25.8991 15.0839 42 19ZM5.10794 35C1.92994 31.3655 0 26.6565 0 21.5C0 16.3417 1.92994 11.6327 5.10794 8C13.4135 16.0335 30.9699 19.957 40 21.5C30.9699 23.043 13.4135 26.9665 5.10794 35Z" fill="currentColor"/>
+      </svg>
+    </div>
+
+    <p class="fs-4 fw-medium">© Skyori <span id="year-placeholder"></span></p>
+    <p class="d-flex justify-content-center align-items-center">
+      <a href="mailto:info@skyori.ru" class="text-decoration-none mx-2">info@skyori.ru</a>
+      
+        
+      
+        
+      
+        
+          <a href="https://vk.com/skyori" target="_blank" class="mx-3"><?xml version="1.0" encoding="utf-8"?>
+<svg fill="currentColor" width="24" height="24" viewBox="2 2 20 20" xmlns="http://www.w3.org/2000/svg" data-name="Layer 1"><path d="M15.07294,2H8.9375C3.33331,2,2,3.33331,2,8.92706V15.0625C2,20.66663,3.32294,22,8.92706,22H15.0625C20.66669,22,22,20.67706,22,15.07288V8.9375C22,3.33331,20.67706,2,15.07294,2Zm3.07287,14.27081H16.6875c-.55206,0-.71875-.44793-1.70831-1.4375-.86463-.83331-1.22919-.9375-1.44794-.9375-.30206,0-.38544.08332-.38544.5v1.3125c0,.35419-.11456.5625-1.04162.5625a5.69214,5.69214,0,0,1-4.44794-2.66668A11.62611,11.62611,0,0,1,5.35419,8.77081c0-.21875.08331-.41668.5-.41668H7.3125c.375,0,.51044.16668.65625.55212.70831,2.08331,1.91669,3.89581,2.40625,3.89581.1875,0,.27081-.08331.27081-.55206V10.10413c-.0625-.97913-.58331-1.0625-.58331-1.41663a.36008.36008,0,0,1,.375-.33337h2.29169c.3125,0,.41662.15625.41662.53125v2.89587c0,.3125.13544.41663.22919.41663.1875,0,.33331-.10413.67706-.44788a11.99877,11.99877,0,0,0,1.79169-2.97919.62818.62818,0,0,1,.63544-.41668H17.9375c.4375,0,.53125.21875.4375.53125A18.20507,18.20507,0,0,1,16.41669,12.25c-.15625.23956-.21875.36456,0,.64581.14581.21875.65625.64582,1,1.05207a6.48553,6.48553,0,0,1,1.22912,1.70837C18.77081,16.0625,18.5625,16.27081,18.14581,16.27081Z"/></svg></a>
+        
+      
+    </p>
+    <p>Россия, г. Пермь, ш. Космонавтов, 111И, к1 | ул. Стахановская, 45</p>
+    <p class="small opacity-50 px-3 lh-sm mb-4">ООО «Скайори» занимается деятельностью в сфере информационных технологий Код 1.01 "Проектирование, и (или) обследование, и (или) разработка, и (или) адаптация, и (или) модификация (в том числе локализация, кастомизация, доработка), и (или) обратное проектирование (реверсивный инжиниринг), и (или) модернизация, и (или) обновление, и (или) установка, и (или) интеграция, и (или) настройка, и (или) конфигурирование, и (или) внедрение, и (или) сопровождение, и (или) тестирование, и (или) испытания, и (или) техническая поддержка, и (или) эксплуатация, включая администрирование, а также оказание услуг (в том числе консультационных, услуг по обучению, экспертных услуг и иных) в указанных видах деятельности (далее - проектирование и (или) иная деятельность, а также оказание услуг), в отношении программ для электронных вычислительных машин (далее - программы для ЭВМ), и (или) баз данных (в том числе их обновлений и исправлений), и (или) визуальных пользовательских интерфейсов" согласно Приказу Министерства цифрового развития, связи и массовых коммуникаций Российской Федерации от 11.05.2023 № 449 "Об утверждении перечня видов деятельности в области информационных технологий"</p>
   </div>
 </footer>
-
-        </div>
-      </div>
-    </div>
-  
-
-  
-    
-    <div class="modal fade modal-project" id="projects-proj2-m" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <!-- ===========================
- NAVBAR START
- =========================== -->
-<nav class="navbar navbar-expand-lg fixed-top">
-  <div class="container">
-    <a class="navbar-brand" href="/">
-        <img src="/img/logo.svg" class="logo d-inline-block align-top" alt="">
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
-      <svg width="30" height="19" viewBox="0 0 30 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M0 0H30V3H0V0ZM0 8H30V11H0V8ZM20 16H0V19H20V16Z" fill="#808080"/>
-</svg>
-
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarContent">
-      <div class="nav-close text-right mb-5" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="true" aria-label="Toggle navigation"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M12.1848 9.57786L2.6389 0.0319214L0.517578 2.15324L10.0635 11.6992L0.517578 21.2451L2.6389 23.3664L12.1848 13.8205L21.7308 23.3664L23.8521 21.2451L14.3062 11.6992L23.8521 2.15324L21.7308 0.0319214L12.1848 9.57786Z"/>
-</svg>
-</div>
-      <ul class="navbar-nav">
-  <li class="nav-item">
-    <a class="nav-link" href="/company.html" data-dismiss="modal" aria-label="Close">Компания</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/projects.html" data-dismiss="modal" aria-label="Close">Проекты и решения</a>
-  </li>
-  <li class="nav-item"></li>
-    <a class="nav-link" href="/products.html" data-dismiss="modal" aria-label="Close">Продукты</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/activities.html" data-dismiss="modal" aria-label="Close">Направления деятельности</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/contacts.html" data-dismiss="modal" aria-label="Close">Контакты</a>
-  </li>
-</ul>
-    </div><!--.nav-collapse -->
-  </div>
-</nav><!--navbar end-->   
-
-          <div class="modal-body">
-            <div class="container">
-              <div class="row justify-content-between">
-                <div class="col-lg-12 mb-3">
-                  <a href='#' data-dismiss="modal" aria-label="Close">
-                    Вернуться к списку проектов
-                  </a>
-                </div>
-                
-<div class="col-lg-6 project-title">
-    
-<h1 id="ргис-республики-крым">РГИС Республики Крым</h1>
-
-<p><img src="/img/projects/crym.png" alt="Perm logo" /> РГИС Республики Крым – лауреат Всероссийского конкурса проектов региональной и муниципальной информатизации «Проф-ИТ 2018», проводимого ежегодно Экспертным центром электронного государства.</p>
-
-<p><a href="https://geoportal.rgis.rk.gov.ru">Публичный геопортал Республики Крым</a></p>
-
-</div>
-
-<div class="col-lg-6 project-description">
-  
-  <div class="fill-item">
-    
-<p>Задачи:</p>
-<ul>
-  <li>Повышение привлекательности территорий для государственных и частных инвестиций</li>
-  <li>Развитие инженерной, транспортной и социальной инфраструктуры</li>
-  <li>Развитие туристической отрасли</li>
-  <li>Повышение транспортной доступности объектов<br /></li>
-</ul>
-
-<p>Концепция решения РГИС РК</p>
-<ul>
-  <li>Создание единой точки доступа к геоинформационным ресурсам</li>
-  <li>Обеспечение доступа к актуальным и достоверным пространственным данным ИОГВ и ОМСУ Республики Крым</li>
-  <li>Обеспечение распределенного ведения геоданных</li>
-  <li>Реализация решения на российском и свободно распространяемом ПО</li>
-  <li>Обеспечение единых форматов обмена данными</li>
-</ul>
-
-
-  </div>
-  
-</div>
-
-<div class="col-lg-6">
-  
-<h6 id="функции-ргис-рк">Функции РГИС РК:</h6>
-
-</div>
-<div class="col-lg-6">
-</div>
-<div class="col-lg-6 checked-list">
-  
-<ul>
-  <li>Хранение и доступ к базовой пространственной, семантической, нормативно-справочной информации и пространственных данных из открытых интернет-источников для ИОГВ и ОМСУ Республики Крым</li>
-  <li>Доступ к пространственным данным открытого характера, хранящимся в РГИС РК, неограниченному кругу лиц через Геопортал РГИС РК</li>
-  <li>Просмотр и анализ пространственных и атрибутивных данных</li>
-</ul>
-
-</div>
-
-<div class="col-lg-6 checked-list">
-    
-<ul>
-  <li>Обеспечение возможности поиска картографических данных по их метаданным</li>
-  <li>Обеспечение возможностей межведомственного взаимодействия с использованием СМЭВ/РСМЭВ</li>
-  <li>Обеспечение возможности автоматизированного построения отчетов и формирования документов</li>
-</ul>
-
-</div>
-
-<div class="col-lg-6 mt-sm-4">
-  
-<h6 id="результаты-внедрения">Результаты внедрения:</h6>
-
-</div>
-
-<div class="col-lg-6 order-lg-0 order-2">
-  
-
-</div>
-
-<div class="col-lg-6 mb-4 order-lg-0 order-1">
-  <div class="fill-item">
-    
-<ul>
-  <li>Создание единого геоинформационного пространства Республики Крым</li>
-  <li>Обеспечение доступа к актуальным и достоверным пространственным данным для органов государственной власти, органов местного самоуправления, хозяйствующих субъектов, граждан</li>
-  <li>Создание технологического компонента инфраструктуры пространственных данных РК</li>
-  <li>Сокращение времени на поиск информации, на анализ разнородных данных, на пространственный анализ при согласовании схем расположения ЗУ, на подготовку и перерасчет данных между различными системами координат и конвертацию данных в различные форматы</li>
-  <li>Уменьшение количества межведомственных и внутриведомственных запросов на предоставление пространственных данных и запросов от граждан и организаций</li>
-  <li>Рост привлекательности территории для государственных и частных инвестиций</li>
-</ul>
-
-  </div>
-</div>
-
-<div class="col-lg-6 mb-4 order-lg-0 order-2">
-  <div class="fill-item">
-    
-<ul>
-  <li>Рост эффективности контрольных мероприятий в отношении использования имущества</li>
-  <li>Оптимизация использования бюджета</li>
-  <li>Повышение качества инвестиционной политики управления земельными ресурсами</li>
-  <li>Рост эффективности экологического надзора, сокращение числа несанкционированных свалок</li>
-  <li>Оптимизация планирования мест доставки уловов</li>
-  <li>Повышение открытости органов власти</li>
-  <li>Сокращение сроков оказания государственных и муниципальных услуг</li>
-  <li>Доступ для населения к актуальной комплексной информации об объектах</li>
-</ul>
-
-  </div>
-</div>
-
-<div class="product-description">
-  
-</div>
-
-<div class="col-lg-6 mb-4 order-lg-0 order-2">
-  <img src="/img/projects/rgisrk.jpg" />
-</div>
-
-<div class="col-lg-6 mb-4 order-lg-0 order-2">
-  <img src="/img/projects/rgisrk1.png" />
-</div>
-
-<div class="col-lg-6 mb-4 order-lg-0 order-2">
-  <img src="/img/projects/rgisrk2.png" />
-</div>
-
-<div class="col-lg-6 mb-4 order-lg-0 order-2">
-  <img src="/img/projects/rgisrk3.png" />
-</div>
-
-<div class="col-lg-6 mb-4 order-lg-0 order-2">
-  <img src="/img/projects/rgisrk4.png" />
-</div>
-
-<div class="col-lg-6 mb-4 order-lg-0 order-2">
-  <img src="/img/projects/rgisrk5.png" />
-</div>
-
-              </div>
-            </div>
-          </div>
-          <!-- Footer -->
-<footer class="page-footer font-small blue">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-4 col-md-4 col-sm-6 f-brand">
-          <img src="/img/logo-footer.svg" class="mr-1"/>
-          <div><span>© Skyori, 2026г.</span>
-            Россия, г. Пермь<br>
-            ш. Космонавтов, 111И, к1<br>
-            ул. Стахановская, 45<br>
-          </div>
-      </div>
-      <div class="col-lg-4 col-md-4 col-sm-6">
-        <!-- <a href="tel:73422385300">+7 (342) 238 53 00</a><br> -->
-        <a href="mailto:info@skyori.ru">info@skyori.ru</a>
-      </div>
-      <div class="col-lg-4 col-md-4 col-sm-6">
-        <!-- <a href="https://www.facebook.com/skyorigroup/" _target="blank"><svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M8.83065 0H23.169C28.0386 0 32.0002 3.96162 32 8.83084V23.1692C32 28.0384 28.0386 32 23.169 32H8.83065C3.96143 32 0 28.0386 0 23.1692V8.83084C0 3.96162 3.96143 0 8.83065 0ZM23.1692 29.1608C26.473 29.1608 29.161 26.473 29.161 23.1692H29.1608V8.83084C29.1608 5.52716 26.4728 2.8392 23.169 2.8392H8.83065C5.52697 2.8392 2.8392 5.52716 2.8392 8.83084V23.1692C2.8392 26.473 5.52697 29.161 8.83065 29.1608H23.1692Z" fill="#00A77E"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M7 16.0002C7 11.5888 10.813 8 15.5 8C20.187 8 24 11.5888 24 16.0002C24 20.4114 20.187 24 15.5 24C10.813 24 7 20.4114 7 16.0002ZM9.9268 16C9.9268 18.8922 12.4271 21.2451 15.5 21.2451C18.5729 21.2451 21.0732 18.8922 21.0732 16C21.0732 13.1076 18.5731 10.7545 15.5 10.7545C12.4269 10.7545 9.9268 13.1076 9.9268 16Z" fill="#00A77E"/>
-<path d="M24 6C23.4745 6 22.9584 6.21273 22.5873 6.58545C22.2144 6.95636 22 7.47273 22 8C22 8.52564 22.2145 9.04182 22.5873 9.41455C22.9582 9.78545 23.4745 10 24 10C24.5273 10 25.0418 9.78545 25.4145 9.41455C25.7873 9.04182 26 8.52545 26 8C26 7.47273 25.7873 6.95636 25.4145 6.58545C25.0436 6.21273 24.5273 6 24 6Z" fill="#00A77E"/>
-</svg>
-</a> -->
-        <!-- <a href="https://www.facebook.com/skyorigroup/" target="_blank"><i class="fab fa-facebook-f fa-2x"></i></a> -->
-        <a href="https://vk.com/skyori" target="_blank"><i class="fab fa-vk fa-2x" aria-hidden="true"></i></a>
-      </div>
-    </div>
-  </div>
-</footer>
-
-        </div>
-      </div>
-    </div>
-  
-
-  
-    
-    <div class="modal fade modal-project" id="projects-proj3-m" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <!-- ===========================
- NAVBAR START
- =========================== -->
-<nav class="navbar navbar-expand-lg fixed-top">
-  <div class="container">
-    <a class="navbar-brand" href="/">
-        <img src="/img/logo.svg" class="logo d-inline-block align-top" alt="">
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
-      <svg width="30" height="19" viewBox="0 0 30 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M0 0H30V3H0V0ZM0 8H30V11H0V8ZM20 16H0V19H20V16Z" fill="#808080"/>
-</svg>
-
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarContent">
-      <div class="nav-close text-right mb-5" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="true" aria-label="Toggle navigation"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M12.1848 9.57786L2.6389 0.0319214L0.517578 2.15324L10.0635 11.6992L0.517578 21.2451L2.6389 23.3664L12.1848 13.8205L21.7308 23.3664L23.8521 21.2451L14.3062 11.6992L23.8521 2.15324L21.7308 0.0319214L12.1848 9.57786Z"/>
-</svg>
-</div>
-      <ul class="navbar-nav">
-  <li class="nav-item">
-    <a class="nav-link" href="/company.html" data-dismiss="modal" aria-label="Close">Компания</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/projects.html" data-dismiss="modal" aria-label="Close">Проекты и решения</a>
-  </li>
-  <li class="nav-item"></li>
-    <a class="nav-link" href="/products.html" data-dismiss="modal" aria-label="Close">Продукты</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/activities.html" data-dismiss="modal" aria-label="Close">Направления деятельности</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/contacts.html" data-dismiss="modal" aria-label="Close">Контакты</a>
-  </li>
-</ul>
-    </div><!--.nav-collapse -->
-  </div>
-</nav><!--navbar end-->   
-
-          <div class="modal-body">
-            <div class="container">
-              <div class="row justify-content-between">
-                <div class="col-lg-12 mb-3">
-                  <a href='#' data-dismiss="modal" aria-label="Close">
-                    Вернуться к списку проектов
-                  </a>
-                </div>
-                
-<div class="col-lg-6 project-title">
-    
-<h1 id="рисогд-пермского-края">РИСОГД Пермского края</h1>
-
-
-</div>
-
-<div class="col-lg-6 project-description">
-  
-  <div class="fill-item">
-    
-<p>Система предназначена для решения задач органов власти в области градостроительства и архитектуры. Облегчает поиск и обработку информации, предоставляет широкие возможности для анализа и мониторинга градостроительной деятельности.</p>
-
-  </div>
-  
-</div>
-
-<div class="col-lg-6">
-  
-<h6 id="решаемые-задачи">Решаемые задачи:</h6>
-
-</div>
-<div class="col-lg-6">
-</div>
-<div class="col-lg-6 checked-list">
-  
-<ul>
-  <li>Централизованное ведение данных об объектах градостроительной деятельности на региональном и муниципальном уровне</li>
-  <li>Ведение пространственных данных субъекта РФ и входящих в него муниципальных образований</li>
-  <li>Ведение реестра документов ИСОГД</li>
-  <li>Формирование документов с учетом размещенной в системе информации, включая пространственные данные</li>
-</ul>
-
-
-</div>
-
-<div class="col-lg-6 checked-list">
-    
-<ul>
-  <li>Подписание документов ЭЦП</li>
-  <li>Предоставление государственных и муниципальных услуг в электронном виде</li>
-  <li>Анализ и мониторинг градостроительной деятельности</li>
-  <li>Доступ к публичным онлайн-сервисам</li>
-</ul>
-
-</div>
-
-<div class="col-lg-6 mt-sm-4">
-  
-<h6 id="функциональные-возможности">Функциональные возможности:</h6>
-
-</div>
-
-<div class="col-lg-6 order-lg-0 order-2">
-  
-
-</div>
-
-<div class="col-lg-6 mb-4 order-lg-0 order-1">
-  <div class="fill-item">
-    
-<p><strong>Приложение для пользователей.</strong> Доступ ко всем ресурсам и подсистемам осуществляется через простое, интуитивно понятное веб-приложение.</p>
-
-<p><strong>Централизованное хранилище документов и данных.</strong> Включает Единый региональный электронный реестр документов, единые реестровые и пространственные данные региона. Обеспечивает согласованность градостроительных документов и решений на региональном и муниципальном уровнях.</p>
-
-<p><strong>Реестр учета сведений, документов, материалов, поступивших на размещение в информационные системы и результатов их рассмотрения.</strong> Возможность ведения электронного реестра документов ИСОГД в соответствии с требованиями законодательства. Реестр формирует номера документов в соответствии с классификаторами, обеспечивает быстрый доступ к скан-копиям оригиналов документов, позволяет быстро находить и просматривать информацию. Документы в реестре связаны с объектами на карте, возможен переход с карты к документам выбранного объекта и из документа к просмотру объекта на карте.</p>
-
-<p><strong>Реестровые данные ИСОГД.</strong> В системе ведется реестр объектов ИСОГД: адресный реестр, земельные участки, объекты капитального строительства, инженерные изыскания, развитие застроенных территорий и других. Обеспечена возможность поиска и фильтрации данных в реестрах, возможность перехода к пространственным данным на картах, формирования и выгрузки отчетов.</p>
-
-<p><strong>Геоинформационная подсистема.</strong> Позволяет просматривать на карте, искать и анализировать информацию о территории и объектах. Нужную информацию можно искать не только по описанию, но и по координатам, местоположению и другим пространственным характеристикам. Реализована возможность предоставления картографических сервисов в Интернет.</p>
-
-
-  </div>
-</div>
-
-<div class="col-lg-6 mb-4 order-lg-0 order-2">
-  <div class="fill-item">
-    
-<p><strong>Автоматизация процедур подготовки документов.</strong> Система позволяет автоматизировать следующие процессы:</p>
-<ul>
-  <li>Подготовка, утверждение и выдача градостроительных планов земельных участков</li>
-  <li>Предоставление разрешений на строительство, реконструкцию и ввод объектов в эксплуатацию</li>
-  <li>Выдача сведений из информационной системы обеспечения градостроительной деятельности</li>
-  <li>Осуществление адресации объектов недвижимости</li>
-  <li>Перепланировка и перевод помещений из жилого в нежилое (нежилого в жилое)</li>
-</ul>
-
-<p><strong>Предоставление услуг в электронном виде.</strong> Система автоматизирует оказание государственных и муниципальных услуг. Реализована возможность интеграции с РПГУ, ЕПГУ, осуществления межведомственных запросов (сведения из ЕГРН, ФНС), формирования и отправки запросов на технические условия по электронным каналам связи в РСО. В системе реализован удобный механизм контроля сроков исполнения услуг. Результаты оказания услуг могут быть переданы по электронным каналам связи с ЭЦП ведомства.</p>
-
-<p><strong>Публичный портал градостроительных сведений.</strong> Портал может содержать данные об административном делении — границах города, районов, микрорайонов, улиц, объектов недвижимости, данные Росреестра, а также проекты межевания и планировки территорий, где обозначены объекты культурного наследия, зонирование территории, генеральный план, природоохранные зоны, зоны с особыми условиями использования территорий и т.д.</p>
-
-<p>Публичный портал обеспечивает доступ граждан и организаций к геоданным о состоянии и развитии территории. Сведения из ИСОГД выдаются в полностью автоматическом режиме. Уведомления о ходе исполнения и рассмотрения заявлений отправляются на электронную почту. Реализована возможность оплаты муниципальных услуг по УИН через ЕПГУ или онлайн-банки.</p>
-
-<p><a href="https://isogd.permkrai.ru/#/desktop">Публичный градостроительный портал РИСОГД Пермского края</a></p>
-
-
-  </div>
-</div>
-
-<div class="product-description">
-  
-</div>
-
-<div class="col-lg-6 mb-4 order-lg-0 order-2">
-  <img src="/img/projects/risogdpk1.png" />
-</div>
-
-<div class="col-lg-6 mb-4 order-lg-0 order-2">
-  <img src="/img/projects/risogdpk2.png" />
-</div>
-
-<div class="col-lg-6 mb-4 order-lg-0 order-2">
-  <img src="/img/projects/risogdpk3.png" />
-</div>
-
-              </div>
-            </div>
-          </div>
-          <!-- Footer -->
-<footer class="page-footer font-small blue">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-4 col-md-4 col-sm-6 f-brand">
-          <img src="/img/logo-footer.svg" class="mr-1"/>
-          <div><span>© Skyori, 2026г.</span>
-            Россия, г. Пермь<br>
-            ш. Космонавтов, 111И, к1<br>
-            ул. Стахановская, 45<br>
-          </div>
-      </div>
-      <div class="col-lg-4 col-md-4 col-sm-6">
-        <!-- <a href="tel:73422385300">+7 (342) 238 53 00</a><br> -->
-        <a href="mailto:info@skyori.ru">info@skyori.ru</a>
-      </div>
-      <div class="col-lg-4 col-md-4 col-sm-6">
-        <!-- <a href="https://www.facebook.com/skyorigroup/" _target="blank"><svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M8.83065 0H23.169C28.0386 0 32.0002 3.96162 32 8.83084V23.1692C32 28.0384 28.0386 32 23.169 32H8.83065C3.96143 32 0 28.0386 0 23.1692V8.83084C0 3.96162 3.96143 0 8.83065 0ZM23.1692 29.1608C26.473 29.1608 29.161 26.473 29.161 23.1692H29.1608V8.83084C29.1608 5.52716 26.4728 2.8392 23.169 2.8392H8.83065C5.52697 2.8392 2.8392 5.52716 2.8392 8.83084V23.1692C2.8392 26.473 5.52697 29.161 8.83065 29.1608H23.1692Z" fill="#00A77E"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M7 16.0002C7 11.5888 10.813 8 15.5 8C20.187 8 24 11.5888 24 16.0002C24 20.4114 20.187 24 15.5 24C10.813 24 7 20.4114 7 16.0002ZM9.9268 16C9.9268 18.8922 12.4271 21.2451 15.5 21.2451C18.5729 21.2451 21.0732 18.8922 21.0732 16C21.0732 13.1076 18.5731 10.7545 15.5 10.7545C12.4269 10.7545 9.9268 13.1076 9.9268 16Z" fill="#00A77E"/>
-<path d="M24 6C23.4745 6 22.9584 6.21273 22.5873 6.58545C22.2144 6.95636 22 7.47273 22 8C22 8.52564 22.2145 9.04182 22.5873 9.41455C22.9582 9.78545 23.4745 10 24 10C24.5273 10 25.0418 9.78545 25.4145 9.41455C25.7873 9.04182 26 8.52545 26 8C26 7.47273 25.7873 6.95636 25.4145 6.58545C25.0436 6.21273 24.5273 6 24 6Z" fill="#00A77E"/>
-</svg>
-</a> -->
-        <!-- <a href="https://www.facebook.com/skyorigroup/" target="_blank"><i class="fab fa-facebook-f fa-2x"></i></a> -->
-        <a href="https://vk.com/skyori" target="_blank"><i class="fab fa-vk fa-2x" aria-hidden="true"></i></a>
-      </div>
-    </div>
-  </div>
-</footer>
-
-        </div>
-      </div>
-    </div>
-  
-
-  
-    
-    <div class="modal fade modal-project" id="projects-proj4-m" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <!-- ===========================
- NAVBAR START
- =========================== -->
-<nav class="navbar navbar-expand-lg fixed-top">
-  <div class="container">
-    <a class="navbar-brand" href="/">
-        <img src="/img/logo.svg" class="logo d-inline-block align-top" alt="">
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
-      <svg width="30" height="19" viewBox="0 0 30 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M0 0H30V3H0V0ZM0 8H30V11H0V8ZM20 16H0V19H20V16Z" fill="#808080"/>
-</svg>
-
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarContent">
-      <div class="nav-close text-right mb-5" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="true" aria-label="Toggle navigation"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M12.1848 9.57786L2.6389 0.0319214L0.517578 2.15324L10.0635 11.6992L0.517578 21.2451L2.6389 23.3664L12.1848 13.8205L21.7308 23.3664L23.8521 21.2451L14.3062 11.6992L23.8521 2.15324L21.7308 0.0319214L12.1848 9.57786Z"/>
-</svg>
-</div>
-      <ul class="navbar-nav">
-  <li class="nav-item">
-    <a class="nav-link" href="/company.html" data-dismiss="modal" aria-label="Close">Компания</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/projects.html" data-dismiss="modal" aria-label="Close">Проекты и решения</a>
-  </li>
-  <li class="nav-item"></li>
-    <a class="nav-link" href="/products.html" data-dismiss="modal" aria-label="Close">Продукты</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/activities.html" data-dismiss="modal" aria-label="Close">Направления деятельности</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/contacts.html" data-dismiss="modal" aria-label="Close">Контакты</a>
-  </li>
-</ul>
-    </div><!--.nav-collapse -->
-  </div>
-</nav><!--navbar end-->   
-
-          <div class="modal-body">
-            <div class="container">
-              <div class="row justify-content-between">
-                <div class="col-lg-12 mb-3">
-                  <a href='#' data-dismiss="modal" aria-label="Close">
-                    Вернуться к списку проектов
-                  </a>
-                </div>
-                
-<div class="col-lg-6 project-title">
-    
-<h1 id="аис-управление-землями">АИС «Управление землями»</h1>
-
-<p><img src="/img/projects/prm.png" alt="Perm logo" /> Система внедрена в Департаменте земельных отношений администрации города Перми.</p>
-
-</div>
-
-<div class="col-lg-6 project-description">
-  
-  <div class="fill-item">
-    
-<p>Автоматизированная информационная система «Управление землями» предназначена для комплексной автоматизации и информационно-аналитического обеспечения процессов деятельности по управлению и распоряжению земельными участками, находящимися в муниципальной собственности, и участками, собственность на которые не разграничена.</p>
-
-  </div>
-  
-</div>
-
-<div class="col-lg-6">
-  
-<h6 id="система-управление-землями-реализована-в-виде-web-приложения-и-автоматизирует-следующие-процессы">Система «Управление землями» реализована в виде web-приложения и автоматизирует следующие процессы:</h6>
-
-</div>
-<div class="col-lg-6">
-</div>
-<div class="col-lg-6 checked-list">
-  
-<ul>
-  <li>Ведение реестра муниципальных земельных участков</li>
-  <li>Ведение реестра договоров аренды и купли-продажи земельных участков</li>
-  <li>Администрирование платежей по договорам</li>
-  <li>Ведение пространственных данных о земельных участках, получение данных о кадастровом делении, градостроительных зонах, зонах ограничений и т.д.</li>
-  <li>Ведение картотеки судебных разбирательств в отношении земельных участков, исполнения обязательств по договорам и исковой деятельности</li>
-  <li>Интеграцию с внешними сервисами портала Госуслуг, АИС МФЦ и Росреестра</li>
-</ul>
-
-</div>
-
-<div class="col-lg-6 checked-list">
-    
-<ul>
-  <li>Предоставление муниципальных услуг в электронном виде</li>
-  <li>Выгрузку информации о начислениях по договорам аренды и купли-продажи в Государственную информационную систему о государственных и муниципальных платежах</li>
-  <li>Регистрацию и контроль исполнения всех видов поручений</li>
-  <li>Регистрацию входящей и исходящей корреспонденции</li>
-  <li>Формирование отчетности</li>
-</ul>
-
-</div>
-
-<div class="col-lg-6 mt-sm-4">
-  
-<h6 id="результаты-внедрения">Результаты внедрения:</h6>
-
-</div>
-
-<div class="col-lg-6 order-lg-0 order-2">
-  
-
-</div>
-
-<div class="col-lg-6 mb-4 order-lg-0 order-1">
-  <div class="fill-item">
-    
-<ul>
-  <li>Реализована единая политика в области земельных отношений и представление интересов города Перми по вопросам регулирования земельных отношений</li>
-  <li>Создана единая информационная среда для принятия стратегических и оперативных решений в сфере управления землями</li>
-</ul>
-
-  </div>
-</div>
-
-<div class="col-lg-6 mb-4 order-lg-0 order-2">
-  <div class="fill-item">
-    
-<ul>
-  <li>Автоматизированы расчеты начислений по договорам, в том числе по большим объемам данных</li>
-  <li>Автоматизированы процессы ведения реестра документов в рамках Департамента</li>
-  <li>Обеспечен оперативный обмен информацией в рамках межведомственного взаимодействия</li>
-</ul>
-
-  </div>
-</div>
-
-<div class="product-description">
-  
-</div>
-
-<div class="col-lg-6 mb-4 order-lg-0 order-2">
-  <img src="/img/projects/aisuz1.png" />
-</div>
-
-<div class="col-lg-6 mb-4 order-lg-0 order-2">
-  <img src="/img/projects/aisuz2.png" />
-</div>
-
-<div class="col-lg-6 mb-4 order-lg-0 order-2">
-  <img src="/img/projects/aisuz3.png" />
-</div>
-
-              </div>
-            </div>
-          </div>
-          <!-- Footer -->
-<footer class="page-footer font-small blue">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-4 col-md-4 col-sm-6 f-brand">
-          <img src="/img/logo-footer.svg" class="mr-1"/>
-          <div><span>© Skyori, 2026г.</span>
-            Россия, г. Пермь<br>
-            ш. Космонавтов, 111И, к1<br>
-            ул. Стахановская, 45<br>
-          </div>
-      </div>
-      <div class="col-lg-4 col-md-4 col-sm-6">
-        <!-- <a href="tel:73422385300">+7 (342) 238 53 00</a><br> -->
-        <a href="mailto:info@skyori.ru">info@skyori.ru</a>
-      </div>
-      <div class="col-lg-4 col-md-4 col-sm-6">
-        <!-- <a href="https://www.facebook.com/skyorigroup/" _target="blank"><svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M8.83065 0H23.169C28.0386 0 32.0002 3.96162 32 8.83084V23.1692C32 28.0384 28.0386 32 23.169 32H8.83065C3.96143 32 0 28.0386 0 23.1692V8.83084C0 3.96162 3.96143 0 8.83065 0ZM23.1692 29.1608C26.473 29.1608 29.161 26.473 29.161 23.1692H29.1608V8.83084C29.1608 5.52716 26.4728 2.8392 23.169 2.8392H8.83065C5.52697 2.8392 2.8392 5.52716 2.8392 8.83084V23.1692C2.8392 26.473 5.52697 29.161 8.83065 29.1608H23.1692Z" fill="#00A77E"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M7 16.0002C7 11.5888 10.813 8 15.5 8C20.187 8 24 11.5888 24 16.0002C24 20.4114 20.187 24 15.5 24C10.813 24 7 20.4114 7 16.0002ZM9.9268 16C9.9268 18.8922 12.4271 21.2451 15.5 21.2451C18.5729 21.2451 21.0732 18.8922 21.0732 16C21.0732 13.1076 18.5731 10.7545 15.5 10.7545C12.4269 10.7545 9.9268 13.1076 9.9268 16Z" fill="#00A77E"/>
-<path d="M24 6C23.4745 6 22.9584 6.21273 22.5873 6.58545C22.2144 6.95636 22 7.47273 22 8C22 8.52564 22.2145 9.04182 22.5873 9.41455C22.9582 9.78545 23.4745 10 24 10C24.5273 10 25.0418 9.78545 25.4145 9.41455C25.7873 9.04182 26 8.52545 26 8C26 7.47273 25.7873 6.95636 25.4145 6.58545C25.0436 6.21273 24.5273 6 24 6Z" fill="#00A77E"/>
-</svg>
-</a> -->
-        <!-- <a href="https://www.facebook.com/skyorigroup/" target="_blank"><i class="fab fa-facebook-f fa-2x"></i></a> -->
-        <a href="https://vk.com/skyori" target="_blank"><i class="fab fa-vk fa-2x" aria-hidden="true"></i></a>
-      </div>
-    </div>
-  </div>
-</footer>
-
-        </div>
-      </div>
-    </div>
-  
-
-  
-    
-    <div class="modal fade modal-project" id="projects-proj5-m" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <!-- ===========================
- NAVBAR START
- =========================== -->
-<nav class="navbar navbar-expand-lg fixed-top">
-  <div class="container">
-    <a class="navbar-brand" href="/">
-        <img src="/img/logo.svg" class="logo d-inline-block align-top" alt="">
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
-      <svg width="30" height="19" viewBox="0 0 30 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M0 0H30V3H0V0ZM0 8H30V11H0V8ZM20 16H0V19H20V16Z" fill="#808080"/>
-</svg>
-
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarContent">
-      <div class="nav-close text-right mb-5" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="true" aria-label="Toggle navigation"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M12.1848 9.57786L2.6389 0.0319214L0.517578 2.15324L10.0635 11.6992L0.517578 21.2451L2.6389 23.3664L12.1848 13.8205L21.7308 23.3664L23.8521 21.2451L14.3062 11.6992L23.8521 2.15324L21.7308 0.0319214L12.1848 9.57786Z"/>
-</svg>
-</div>
-      <ul class="navbar-nav">
-  <li class="nav-item">
-    <a class="nav-link" href="/company.html" data-dismiss="modal" aria-label="Close">Компания</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/projects.html" data-dismiss="modal" aria-label="Close">Проекты и решения</a>
-  </li>
-  <li class="nav-item"></li>
-    <a class="nav-link" href="/products.html" data-dismiss="modal" aria-label="Close">Продукты</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/activities.html" data-dismiss="modal" aria-label="Close">Направления деятельности</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/contacts.html" data-dismiss="modal" aria-label="Close">Контакты</a>
-  </li>
-</ul>
-    </div><!--.nav-collapse -->
-  </div>
-</nav><!--navbar end-->   
-
-          <div class="modal-body">
-            <div class="container">
-              <div class="row justify-content-between">
-                <div class="col-lg-12 mb-3">
-                  <a href='#' data-dismiss="modal" aria-label="Close">
-                    Вернуться к списку проектов
-                  </a>
-                </div>
-                
-<div class="col-lg-6 project-title">
-    
-<h1 id="гисогд-кировской-области">ГИСОГД Кировской области</h1>
-
-<p><strong>Государственная информационная система обеспечения градостроительной деятельности Кировской области (ГИСОГД Кировской области)</strong><br /></p>
-
-<p><em>Заказчиком создания системы является Центр стратегического развития информационных ресурсов и систем управления Кировской области. Пользователями ГИСОГД Кировской области являются органы исполнительной власти Кировской области, органы местного самоуправления Кировской области.</em></p>
-
-
-</div>
-
-<div class="col-lg-6 project-description">
-  
-  <div class="fill-item">
-    
-<p>Систему используют</p>
-<ul>
-  <li>Министерство информационных технологий и связи Кировской области</li>
-  <li>Министерство строительства Кировской области</li>
-  <li>Министерство имущественных отношений и инвестиционной политики Кировской области</li>
-  <li>Министерство охраны окружающей среды Кировской области</li>
-  <li>Министерство лесного хозяйства Кировской области</li>
-  <li>Министерство транспорта Кировской области</li>
-  <li>Управление государственной охраны объектов культурного наследия Кировской области</li>
-  <li>45 ОМСУ Кировской области</li>
-</ul>
-
-
-  </div>
-  
-</div>
-
-<div class="col-lg-6">
-  
-<h6 id="назначение">Назначение:</h6>
-
-</div>
-<div class="col-lg-6">
-</div>
-<div class="col-lg-6 checked-list">
-  
-<ul>
-  <li>Ввод, накопление и обработка сведений о земельных участках, расположенных на территории Кировской области</li>
-  <li>Регистрация инженерных изысканий, выполняемых на территории Кировской области</li>
-  <li>Обеспечение автоматизации процесса ведения ИСОГД городскими округами и муниципальными районами Кировской области</li>
-  <li>Ввод, накопление и обработка сведений об объектах капитального строительства расположенных на территории Кировской области</li>
-</ul>
-
-</div>
-
-<div class="col-lg-6 checked-list">
-    
-<ul>
-  <li>Создание и хранение исходно-разрешительной документации в сфере градостроительной деятельности</li>
-  <li>Обеспечение доступа к картографической составляющей градостроительной документации, включаемой в состав сведений, содержащейся в Системе</li>
-  <li>Включение в себя сведений, документов и материалов, соответствующих частям 4, 5, 6 статьи 56 Градостроительного кодекса Российской Федерации.</li>
-</ul>
-
-</div>
-
-<div class="col-lg-6 mt-sm-4">
-  
-<h6 id="функции">Функции:</h6>
-
-</div>
-
-<div class="col-lg-6 order-lg-0 order-2">
-  
-
-</div>
-
-<div class="col-lg-6 mb-4 order-lg-0 order-1">
-  <div class="fill-item">
-    
-<ul>
-  <li>Формирование единого информационного пространства Кировской области, содержащего сведения о территории, порядке ее существующего и планируемого использования и обеспечение ведения пространственных данных Кировской области, доступа органов исполнительной власти Кировской области, органов местного самоуправления муниципальных образований Кировской области, граждан и организаций к пространственным данным о градостроительной деятельности на территории Кировской области</li>
-  <li>Автоматизация процессов подразделений ОМСУ Кировской области, уполномоченных в сфере архитектуры и градостроительства и процессов иных подразделений, связанных с формированием и обработкой пространственных данных</li>
-</ul>
-
-  </div>
-</div>
-
-<div class="col-lg-6 mb-4 order-lg-0 order-2">
-  <div class="fill-item">
-    
-<ul>
-  <li>Обеспечение ОИВ, ОМСУ, физических и юридических лиц актуальными и достоверными сведениями, необходимыми для осуществления градостроительной, инвестиционной и иной хозяйственной деятельности, проведения землеустройства</li>
-  <li>Совершенствование межведомственного взаимодействия для решения задач, требующих комплексного анализа данных о территории Кировской области</li>
-  <li>Обеспечение возможности предоставлять ограниченный удаленный доступ к сведениям, размещенным в ГИСОГД, для внешних потребителей: региональных и федеральных органов власти</li>
-  <li>Обеспечение сбора и учета информации о предоставляемых государственных и муниципальных услугах с целью возможности мониторинга и повышения качества оказания услуг в ОИВ и ОМСУ</li>
-</ul>
-
-  </div>
-</div>
-
-<div class="product-description">
-  
-</div>
-
-<div class="col-lg-6 mb-4 order-lg-0 order-2">
-  <img src="/img/projects/risogdko1.png" />
-</div>
-
-<div class="col-lg-6 mb-4 order-lg-0 order-2">
-  <img src="/img/projects/risogdko2.png" />
-</div>
-
-<div class="col-lg-6 mb-4 order-lg-0 order-2">
-  <img src="/img/projects/risogdko3.png" />
-</div>
-
-              </div>
-            </div>
-          </div>
-          <!-- Footer -->
-<footer class="page-footer font-small blue">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-4 col-md-4 col-sm-6 f-brand">
-          <img src="/img/logo-footer.svg" class="mr-1"/>
-          <div><span>© Skyori, 2026г.</span>
-            Россия, г. Пермь<br>
-            ш. Космонавтов, 111И, к1<br>
-            ул. Стахановская, 45<br>
-          </div>
-      </div>
-      <div class="col-lg-4 col-md-4 col-sm-6">
-        <!-- <a href="tel:73422385300">+7 (342) 238 53 00</a><br> -->
-        <a href="mailto:info@skyori.ru">info@skyori.ru</a>
-      </div>
-      <div class="col-lg-4 col-md-4 col-sm-6">
-        <!-- <a href="https://www.facebook.com/skyorigroup/" _target="blank"><svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M8.83065 0H23.169C28.0386 0 32.0002 3.96162 32 8.83084V23.1692C32 28.0384 28.0386 32 23.169 32H8.83065C3.96143 32 0 28.0386 0 23.1692V8.83084C0 3.96162 3.96143 0 8.83065 0ZM23.1692 29.1608C26.473 29.1608 29.161 26.473 29.161 23.1692H29.1608V8.83084C29.1608 5.52716 26.4728 2.8392 23.169 2.8392H8.83065C5.52697 2.8392 2.8392 5.52716 2.8392 8.83084V23.1692C2.8392 26.473 5.52697 29.161 8.83065 29.1608H23.1692Z" fill="#00A77E"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M7 16.0002C7 11.5888 10.813 8 15.5 8C20.187 8 24 11.5888 24 16.0002C24 20.4114 20.187 24 15.5 24C10.813 24 7 20.4114 7 16.0002ZM9.9268 16C9.9268 18.8922 12.4271 21.2451 15.5 21.2451C18.5729 21.2451 21.0732 18.8922 21.0732 16C21.0732 13.1076 18.5731 10.7545 15.5 10.7545C12.4269 10.7545 9.9268 13.1076 9.9268 16Z" fill="#00A77E"/>
-<path d="M24 6C23.4745 6 22.9584 6.21273 22.5873 6.58545C22.2144 6.95636 22 7.47273 22 8C22 8.52564 22.2145 9.04182 22.5873 9.41455C22.9582 9.78545 23.4745 10 24 10C24.5273 10 25.0418 9.78545 25.4145 9.41455C25.7873 9.04182 26 8.52545 26 8C26 7.47273 25.7873 6.95636 25.4145 6.58545C25.0436 6.21273 24.5273 6 24 6Z" fill="#00A77E"/>
-</svg>
-</a> -->
-        <!-- <a href="https://www.facebook.com/skyorigroup/" target="_blank"><i class="fab fa-facebook-f fa-2x"></i></a> -->
-        <a href="https://vk.com/skyori" target="_blank"><i class="fab fa-vk fa-2x" aria-hidden="true"></i></a>
-      </div>
-    </div>
-  </div>
-</footer>
-
-        </div>
-      </div>
-    </div>
-  
-
-  
-    
-    <div class="modal fade modal-project" id="projects-proj6-m" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <!-- ===========================
- NAVBAR START
- =========================== -->
-<nav class="navbar navbar-expand-lg fixed-top">
-  <div class="container">
-    <a class="navbar-brand" href="/">
-        <img src="/img/logo.svg" class="logo d-inline-block align-top" alt="">
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
-      <svg width="30" height="19" viewBox="0 0 30 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M0 0H30V3H0V0ZM0 8H30V11H0V8ZM20 16H0V19H20V16Z" fill="#808080"/>
-</svg>
-
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarContent">
-      <div class="nav-close text-right mb-5" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="true" aria-label="Toggle navigation"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M12.1848 9.57786L2.6389 0.0319214L0.517578 2.15324L10.0635 11.6992L0.517578 21.2451L2.6389 23.3664L12.1848 13.8205L21.7308 23.3664L23.8521 21.2451L14.3062 11.6992L23.8521 2.15324L21.7308 0.0319214L12.1848 9.57786Z"/>
-</svg>
-</div>
-      <ul class="navbar-nav">
-  <li class="nav-item">
-    <a class="nav-link" href="/company.html" data-dismiss="modal" aria-label="Close">Компания</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/projects.html" data-dismiss="modal" aria-label="Close">Проекты и решения</a>
-  </li>
-  <li class="nav-item"></li>
-    <a class="nav-link" href="/products.html" data-dismiss="modal" aria-label="Close">Продукты</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/activities.html" data-dismiss="modal" aria-label="Close">Направления деятельности</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/contacts.html" data-dismiss="modal" aria-label="Close">Контакты</a>
-  </li>
-</ul>
-    </div><!--.nav-collapse -->
-  </div>
-</nav><!--navbar end-->   
-
-          <div class="modal-body">
-            <div class="container">
-              <div class="row justify-content-between">
-                <div class="col-lg-12 mb-3">
-                  <a href='#' data-dismiss="modal" aria-label="Close">
-                    Вернуться к списку проектов
-                  </a>
-                </div>
-                
-<div class="col-lg-6 project-title">
-    
-<h1 id="автоматизированная-информационная-система-обеспечения-градостроительной-деятельности-г-перми-аисогд">Автоматизированная информационная система обеспечения градостроительной деятельности г. Перми (АИСОГД)</h1>
-
-<p><img src="/img/projects/prm.png" alt="Perm logo" /> Заказчиком создания и развития системы выступает Департамент градостроительства и архитектуры администрации города Перми.</p>
-
-<p>Пользователями АИСОГД являются функциональные и территориальные органы администрации г. Перми, а также органы государственной власти Пермского края, физические и юридические лица.</p>
-
-</div>
-
-<div class="col-lg-6 project-description">
-  
-  <div class="fill-item">
-    
-<p>Автоматизированная информационная система обеспечения градостроительной деятельности г. Перми (АИСОГД) – это единое информационное пространство, обеспечивающее комплексную автоматизацию процессов подготовки, хранения, передачи, представления и анализа данных в области градостроительства на территории г. Перми.</p>
-
-<p>Единое информационное пространство представлено следующими модулями:</p>
-<ul>
-  <li>АИСОГД</li>
-  <li>Публичный портал ИСОГД г. Перми</li>
-  <li>Электронный архив</li>
-</ul>
-
-
-  </div>
-  
-</div>
-
-<div class="col-lg-6">
-  
-<h6 id="назначение">Назначение:</h6>
-
-</div>
-<div class="col-lg-6">
-</div>
-<div class="col-lg-6 checked-list">
-  
-<ul>
-  <li>Автоматизация документооборота в области градостроительства</li>
-  <li>Систематизация градостроительной документации в соответствии с требованиями законодательства РФ</li>
-  <li>Формирование единого информационного пространства города, содержащего сведения о территории, регламентах её использования, объектах недвижимости, транспортной и инженерной инфраструктуре</li>
-  <li>Обеспечение органов МСУ, предприятий жизнеобеспечения города и населения достоверной информацией о территории города</li>
-  <li>Информационное обеспечение и поддержка процессов в области территориального управления, анализа и прогнозирования развития городской территории</li>
-</ul>
-
-
-</div>
-
-<div class="col-lg-6 checked-list">
-    
-<ul>
-  <li>Поддержка руководителей при принятии управленческих решений</li>
-  <li>Автоматизированный контроль исполнения законодательства в части градостроительства</li>
-  <li>Контроль процесса судебных разбирательств</li>
-  <li>Обеспечение сокращения сроков подготовки отчетной, градостроительной документации и документов градостроительного регулирования, обеспечивающих реализацию Генерального плана города Перми, проектов планировки и межевания</li>
-  <li>Обеспечение межведомственного взаимодействия с информационными системами ОГВ, ОМСУ и иных организаций</li>
-  <li>Оказание муниципальных услуг населению и организациям города Перми</li>
-</ul>
-
-</div>
-
-<div class="col-lg-6 mt-sm-4">
-  
-<h6 id="модуль-аисогд-включает-следующие-подсистемы">Модуль АИСОГД включает следующие подсистемы:</h6>
-
-</div>
-
-<div class="col-lg-6 order-lg-0 order-2">
-  
-<h6 id="модуль-публичный-портал-исогд-г-перми-разработан-как-общедоступный-интернет-ресурс-обеспечивающий">Модуль «Публичный портал ИСОГД г. Перми» разработан как общедоступный Интернет-ресурс, обеспечивающий:</h6>
-
-</div>
-
-<div class="col-lg-6 mb-4 order-lg-0 order-1">
-  <div class="fill-item">
-    
-<ul>
-  <li>Подсистема ведения реестра документов ИСОГД</li>
-  <li>Подсистема предоставления сведений</li>
-  <li>Подсистема ГИС</li>
-  <li>Подсистема колерных паспортов</li>
-  <li>Подсистема адресного реестра</li>
-  <li>Подсистема инженерных изысканий</li>
-  <li>Подсистема муниципальных услуг</li>
-  <li>Подсистема регистрации и обработки корреспонденции</li>
-  <li>Подсистема рассылки</li>
-  <li>Подсистема межведомственного взаимодействия</li>
-  <li>Подсистема учета рабочего времени и поручений</li>
-  <li>Подсистема судебных разбирательств</li>
-  <li>Подсистема проектной документации и ГПЗУ</li>
-  <li>Подсистема градостроительной подготовки и зонирования</li>
-  <li>Подсистема общественных обсуждений и публичных слушаний</li>
-  <li>Подсистема подготовки разрешительной документации</li>
-  <li>Подсистема автоматизированного формирования документов и отчетности</li>
-  <li>Подсистема импорта</li>
-  <li>Подсистема администрирования</li>
-</ul>
-
-  </div>
-</div>
-
-<div class="col-lg-6 mb-4 order-lg-0 order-2">
-  <div class="fill-item">
-    
-<ul>
-  <li>Получение текстовой и графической информации о градостроительных условиях территорий г. Перми</li>
-  <li>Получения информации о порядке оказании муниципальных услуг в сфере градостроительства</li>
-  <li>Получение и отслеживание информации о ходе обработки заявлений и обращений, поданных в департамент градостроительства и архитектуры администрации г. Перми</li>
-  <li>Просмотр текстовой и графической информации по проектам, связанным с изменениями в ПЗЗ, Генеральном плане, проектах планировки и межевания, проектах по учету разрешений на условно разрешенный вид использования и по отклонению от предельных параметров разрешенного строительства</li>
-  <li>Подачу заявок на участие в общественных обсуждениях по вопросам градостроительства на территории г. Перми</li>
-  <li>Подачу предложений для общественных обсуждений по вопросам градостроительства на территории г. Перми</li>
-</ul>
-
-<p>Публичный портал ИСОГД г. Перми доступен по ссылке <a href="https://isogd.gorodperm.ru">https://isogd.gorodperm.ru</a></p>
-
-  </div>
-</div>
-
-<div class="product-description">
-  
-</div>
-
-<div class="col-lg-6 mb-4 order-lg-0 order-2">
-  <img src="/img/projects/aisogd1.jpg" />
-</div>
-
-<div class="col-lg-6 mb-4 order-lg-0 order-2">
-  <img src="/img/projects/aisogd2.jpg" />
-</div>
-
-              </div>
-            </div>
-          </div>
-          <!-- Footer -->
-<footer class="page-footer font-small blue">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-4 col-md-4 col-sm-6 f-brand">
-          <img src="/img/logo-footer.svg" class="mr-1"/>
-          <div><span>© Skyori, 2026г.</span>
-            Россия, г. Пермь<br>
-            ш. Космонавтов, 111И, к1<br>
-            ул. Стахановская, 45<br>
-          </div>
-      </div>
-      <div class="col-lg-4 col-md-4 col-sm-6">
-        <!-- <a href="tel:73422385300">+7 (342) 238 53 00</a><br> -->
-        <a href="mailto:info@skyori.ru">info@skyori.ru</a>
-      </div>
-      <div class="col-lg-4 col-md-4 col-sm-6">
-        <!-- <a href="https://www.facebook.com/skyorigroup/" _target="blank"><svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M8.83065 0H23.169C28.0386 0 32.0002 3.96162 32 8.83084V23.1692C32 28.0384 28.0386 32 23.169 32H8.83065C3.96143 32 0 28.0386 0 23.1692V8.83084C0 3.96162 3.96143 0 8.83065 0ZM23.1692 29.1608C26.473 29.1608 29.161 26.473 29.161 23.1692H29.1608V8.83084C29.1608 5.52716 26.4728 2.8392 23.169 2.8392H8.83065C5.52697 2.8392 2.8392 5.52716 2.8392 8.83084V23.1692C2.8392 26.473 5.52697 29.161 8.83065 29.1608H23.1692Z" fill="#00A77E"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M7 16.0002C7 11.5888 10.813 8 15.5 8C20.187 8 24 11.5888 24 16.0002C24 20.4114 20.187 24 15.5 24C10.813 24 7 20.4114 7 16.0002ZM9.9268 16C9.9268 18.8922 12.4271 21.2451 15.5 21.2451C18.5729 21.2451 21.0732 18.8922 21.0732 16C21.0732 13.1076 18.5731 10.7545 15.5 10.7545C12.4269 10.7545 9.9268 13.1076 9.9268 16Z" fill="#00A77E"/>
-<path d="M24 6C23.4745 6 22.9584 6.21273 22.5873 6.58545C22.2144 6.95636 22 7.47273 22 8C22 8.52564 22.2145 9.04182 22.5873 9.41455C22.9582 9.78545 23.4745 10 24 10C24.5273 10 25.0418 9.78545 25.4145 9.41455C25.7873 9.04182 26 8.52545 26 8C26 7.47273 25.7873 6.95636 25.4145 6.58545C25.0436 6.21273 24.5273 6 24 6Z" fill="#00A77E"/>
-</svg>
-</a> -->
-        <!-- <a href="https://www.facebook.com/skyorigroup/" target="_blank"><i class="fab fa-facebook-f fa-2x"></i></a> -->
-        <a href="https://vk.com/skyori" target="_blank"><i class="fab fa-vk fa-2x" aria-hidden="true"></i></a>
-      </div>
-    </div>
-  </div>
-</footer>
-
-        </div>
-      </div>
-    </div>
-  
-
-  
-    
-    <div class="modal fade modal-project" id="projects-proj7-m" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <!-- ===========================
- NAVBAR START
- =========================== -->
-<nav class="navbar navbar-expand-lg fixed-top">
-  <div class="container">
-    <a class="navbar-brand" href="/">
-        <img src="/img/logo.svg" class="logo d-inline-block align-top" alt="">
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
-      <svg width="30" height="19" viewBox="0 0 30 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M0 0H30V3H0V0ZM0 8H30V11H0V8ZM20 16H0V19H20V16Z" fill="#808080"/>
-</svg>
-
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarContent">
-      <div class="nav-close text-right mb-5" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="true" aria-label="Toggle navigation"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M12.1848 9.57786L2.6389 0.0319214L0.517578 2.15324L10.0635 11.6992L0.517578 21.2451L2.6389 23.3664L12.1848 13.8205L21.7308 23.3664L23.8521 21.2451L14.3062 11.6992L23.8521 2.15324L21.7308 0.0319214L12.1848 9.57786Z"/>
-</svg>
-</div>
-      <ul class="navbar-nav">
-  <li class="nav-item">
-    <a class="nav-link" href="/company.html" data-dismiss="modal" aria-label="Close">Компания</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/projects.html" data-dismiss="modal" aria-label="Close">Проекты и решения</a>
-  </li>
-  <li class="nav-item"></li>
-    <a class="nav-link" href="/products.html" data-dismiss="modal" aria-label="Close">Продукты</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/activities.html" data-dismiss="modal" aria-label="Close">Направления деятельности</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/contacts.html" data-dismiss="modal" aria-label="Close">Контакты</a>
-  </li>
-</ul>
-    </div><!--.nav-collapse -->
-  </div>
-</nav><!--navbar end-->   
-
-          <div class="modal-body">
-            <div class="container">
-              <div class="row justify-content-between">
-                <div class="col-lg-12 mb-3">
-                  <a href='#' data-dismiss="modal" aria-label="Close">
-                    Вернуться к списку проектов
-                  </a>
-                </div>
-                
-<div class="col-lg-6 project-title">
-    
-<h1 id="гисогд-республики-хакасия">ГИСОГД Республики Хакасия</h1>
-
-<p>Государственная информационная система обеспечения градостроительной деятельности на территории Республики Хакасия с функциями автоматизированной информационно-аналитической поддержки осуществления полномочий в области градостроительной деятельности<br /></p>
-
-<p>Заказчик: Публичное акционерное «Ростелеком»</p>
-
-</div>
-
-<div class="col-lg-6 project-description">
-  
-  <div class="fill-item">
-    
-<p>Систему используют:</p>
-<ul>
-  <li>Министерство строительства и жилищно-коммунального хозяйства Республики Хакасия<br /></li>
-  <li>13 ОМСУ Республики Хакасия</li>
-</ul>
-
-<p>Единое информационное пространство представлено следующими модулями:</p>
-<ul>
-  <li>ГИСОГД Республики Хакасия</li>
-  <li>Публичный портал ГИСОГД Республики Хакасия</li>
-</ul>
-
-  </div>
-  
-</div>
-
-<div class="col-lg-6">
-  
-<h6 id="назначение">Назначение:</h6>
-
-</div>
-<div class="col-lg-6">
-</div>
-<div class="col-lg-6 checked-list">
-  
-<ul>
-  <li>Ввод, накопление и обработка сведений о земельных участках, расположенных на территории Республики Хакасия</li>
-  <li>Обеспечение автоматизации процесса ведения ГИСОГД органами исполнительной власти Республики Хакасия, городскими округами и муниципальными районами Республики Хакасия</li>
-  <li>Ввод, накопление и обработка сведений об объектах капитального строительства, расположенных на территории Республики Хакасия</li>
-</ul>
-
-</div>
-
-<div class="col-lg-6 checked-list">
-    
-<ul>
-  <li>Создание и хранение исходно-разрешительной документации в сфере градостроительной деятельности</li>
-  <li>Обеспечение оказания услуг полностью в электронном виде через ЕПГУ</li>
-  <li>Обеспечение подготовки отчетов в сфере строительства</li>
-  <li>Обеспечение доступа к картографической составляющей градостроительной документации, включаемой в состав сведений, содержащейся в Системе</li>
-</ul>
-
-</div>
-
-<div class="col-lg-6 mt-sm-4">
-  
-<h6 id="функции">Функции:</h6>
-
-</div>
-
-<div class="col-lg-6 order-lg-0 order-2">
-  
-
-</div>
-
-<div class="col-lg-6 mb-4 order-lg-0 order-1">
-  <div class="fill-item">
-    
-<ul>
-  <li>Формирование единого информационного пространства Республики Хакасия, содержащего сведения о территории, порядке ее существующего и планируемого использования и обеспечение ведения пространственных данных Республики Хакасия, доступа органов исполнительной власти Республики Хакасия, органов местного самоуправления муниципальных образований Республики Хакасия, граждан и организаций к пространственным данным о градостроительной деятельности на территории Республики Хакасия</li>
-  <li>Автоматизация процессов подразделений ОМСУ Республики Хакасия, уполномоченных в сфере архитектуры и градостроительства и процессов иных подразделений, связанных с формированием и обработкой пространственных данных</li>
-  <li>Обеспечение ОИВ, ОМСУ, физических и юридических лиц актуальными и достоверными сведениями, необходимыми для осуществления градостроительной, инвестиционной и иной хозяйственной деятельности, проведения землеустройств</li>
-</ul>
-
-  </div>
-</div>
-
-<div class="col-lg-6 mb-4 order-lg-0 order-2">
-  <div class="fill-item">
-    
-<ul>
-  <li>Совершенствование межведомственного взаимодействия для решения задач, требующих комплексного анализа данных о территории Республики Хакасия</li>
-  <li>Обеспечение возможности предоставлять ограниченный удаленный доступ к сведениям, размещенным в ГИСОГД, для внешних потребителей: региональных и федеральных органов власти</li>
-  <li>Обеспечение сбора и учета информации о предоставляемых государственных и муниципальных услугах, в том числе по заявлениям с портала ЕПГУ,  с целью возможности мониторинга и повышения качества оказания услуг в ОИВ и ОМСУ Республики Хакасия</li>
-</ul>
-
-
-  </div>
-</div>
-
-<div class="product-description">
-  
-</div>
-
-<div class="col-lg-6 mb-4 order-lg-0 order-2">
-  <img src="/img/projects/gisogdrh.png" />
-</div>
-
-<div class="col-lg-6 mb-4 order-lg-0 order-2">
-  <img src="/img/projects/gisogdrh2.png" />
-</div>
-
-<div class="col-lg-6 mb-4 order-lg-0 order-2">
-  <img src="/img/projects/gisogdrh3.png" />
-</div>
-
-<div class="col-lg-6 mb-4 order-lg-0 order-2">
-  <img src="/img/projects/gisogdrh4.png" />
-</div>
-
-              </div>
-            </div>
-          </div>
-          <!-- Footer -->
-<footer class="page-footer font-small blue">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-4 col-md-4 col-sm-6 f-brand">
-          <img src="/img/logo-footer.svg" class="mr-1"/>
-          <div><span>© Skyori, 2026г.</span>
-            Россия, г. Пермь<br>
-            ш. Космонавтов, 111И, к1<br>
-            ул. Стахановская, 45<br>
-          </div>
-      </div>
-      <div class="col-lg-4 col-md-4 col-sm-6">
-        <!-- <a href="tel:73422385300">+7 (342) 238 53 00</a><br> -->
-        <a href="mailto:info@skyori.ru">info@skyori.ru</a>
-      </div>
-      <div class="col-lg-4 col-md-4 col-sm-6">
-        <!-- <a href="https://www.facebook.com/skyorigroup/" _target="blank"><svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M8.83065 0H23.169C28.0386 0 32.0002 3.96162 32 8.83084V23.1692C32 28.0384 28.0386 32 23.169 32H8.83065C3.96143 32 0 28.0386 0 23.1692V8.83084C0 3.96162 3.96143 0 8.83065 0ZM23.1692 29.1608C26.473 29.1608 29.161 26.473 29.161 23.1692H29.1608V8.83084C29.1608 5.52716 26.4728 2.8392 23.169 2.8392H8.83065C5.52697 2.8392 2.8392 5.52716 2.8392 8.83084V23.1692C2.8392 26.473 5.52697 29.161 8.83065 29.1608H23.1692Z" fill="#00A77E"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M7 16.0002C7 11.5888 10.813 8 15.5 8C20.187 8 24 11.5888 24 16.0002C24 20.4114 20.187 24 15.5 24C10.813 24 7 20.4114 7 16.0002ZM9.9268 16C9.9268 18.8922 12.4271 21.2451 15.5 21.2451C18.5729 21.2451 21.0732 18.8922 21.0732 16C21.0732 13.1076 18.5731 10.7545 15.5 10.7545C12.4269 10.7545 9.9268 13.1076 9.9268 16Z" fill="#00A77E"/>
-<path d="M24 6C23.4745 6 22.9584 6.21273 22.5873 6.58545C22.2144 6.95636 22 7.47273 22 8C22 8.52564 22.2145 9.04182 22.5873 9.41455C22.9582 9.78545 23.4745 10 24 10C24.5273 10 25.0418 9.78545 25.4145 9.41455C25.7873 9.04182 26 8.52545 26 8C26 7.47273 25.7873 6.95636 25.4145 6.58545C25.0436 6.21273 24.5273 6 24 6Z" fill="#00A77E"/>
-</svg>
-</a> -->
-        <!-- <a href="https://www.facebook.com/skyorigroup/" target="_blank"><i class="fab fa-facebook-f fa-2x"></i></a> -->
-        <a href="https://vk.com/skyori" target="_blank"><i class="fab fa-vk fa-2x" aria-hidden="true"></i></a>
-      </div>
-    </div>
-  </div>
-</footer>
-
-        </div>
-      </div>
-    </div>
-  
-
-  
-    
-    <div class="modal fade modal-project" id="projects-proj8-m" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <!-- ===========================
- NAVBAR START
- =========================== -->
-<nav class="navbar navbar-expand-lg fixed-top">
-  <div class="container">
-    <a class="navbar-brand" href="/">
-        <img src="/img/logo.svg" class="logo d-inline-block align-top" alt="">
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
-      <svg width="30" height="19" viewBox="0 0 30 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M0 0H30V3H0V0ZM0 8H30V11H0V8ZM20 16H0V19H20V16Z" fill="#808080"/>
-</svg>
-
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarContent">
-      <div class="nav-close text-right mb-5" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="true" aria-label="Toggle navigation"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M12.1848 9.57786L2.6389 0.0319214L0.517578 2.15324L10.0635 11.6992L0.517578 21.2451L2.6389 23.3664L12.1848 13.8205L21.7308 23.3664L23.8521 21.2451L14.3062 11.6992L23.8521 2.15324L21.7308 0.0319214L12.1848 9.57786Z"/>
-</svg>
-</div>
-      <ul class="navbar-nav">
-  <li class="nav-item">
-    <a class="nav-link" href="/company.html" data-dismiss="modal" aria-label="Close">Компания</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/projects.html" data-dismiss="modal" aria-label="Close">Проекты и решения</a>
-  </li>
-  <li class="nav-item"></li>
-    <a class="nav-link" href="/products.html" data-dismiss="modal" aria-label="Close">Продукты</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/activities.html" data-dismiss="modal" aria-label="Close">Направления деятельности</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/contacts.html" data-dismiss="modal" aria-label="Close">Контакты</a>
-  </li>
-</ul>
-    </div><!--.nav-collapse -->
-  </div>
-</nav><!--navbar end-->   
-
-          <div class="modal-body">
-            <div class="container">
-              <div class="row justify-content-between">
-                <div class="col-lg-12 mb-3">
-                  <a href='#' data-dismiss="modal" aria-label="Close">
-                    Вернуться к списку проектов
-                  </a>
-                </div>
-                
-<div class="col-lg-6 project-title">
-    
-<h1 id="система-автоматизации-законотворческой-деятельности-законодательного-собрания-пермского-края">Система автоматизации законотворческой деятельности Законодательного Собрания Пермского края</h1>
-
-
-</div>
-
-<div class="col-lg-6 project-description">
-  
-  <div class="fill-item">
-    
-<p>Назначение:</p>
-<ul>
-  <li>Автоматизация процессов законотворчества и нормотворчества, обеспечение возможности удаленной работы с документами и переход к безбумажным процессам подготовки и проведения заседаний.</li>
-  <li>Позволяет организовать единое информационное пространство законотворческой и нормотворческой деятельности в рамках субъекта Российской Федерации.</li>
-</ul>
-
-
-  </div>
-  
-</div>
-
-<div class="col-lg-6">
-  
-
-</div>
-<div class="col-lg-6">
-</div>
-<div class="col-lg-6 checked-list">
-  
-
-</div>
-
-<div class="col-lg-6 checked-list">
-    
-
-</div>
-
-<div class="col-lg-6 mt-sm-4">
-  
-<h6 id="функциональные-возможности">Функциональные возможности:</h6>
-
-</div>
-
-<div class="col-lg-6 order-lg-0 order-2">
-  
-
-</div>
-
-<div class="col-lg-6 mb-4 order-lg-0 order-1">
-  <div class="fill-item">
-    
-<p><strong>Электронный паспорт закона.</strong> Предоставляет информацию о нормативных правовых актах в удобном для пользователя виде; обеспечивает доступ к документам, сопровождающим законотворческие и нормотворческие процессы.</p>
-
-<p><strong>Электронная повестка заседания.</strong> Позволяет автоматически формировать перечень вопросов к рассмотрению на заседании; формировать график заседаний; обеспечивать оперативный доступ к документам по рассматриваемым вопросам; рассылать оповещения пользователям; фиксировать результаты проведения заседаний, в том числе результаты голосований.</p>
-
-<p><strong>Модуль электронного документооборота.</strong> Автоматизация специализированных процессов законотворческой и нормотворческой деятельности:</p>
-<ul>
-  <li>Внесение и подготовка к рассмотрению законопроектов</li>
-  <li>Подготовка и принятие законов, правовых актов и постановлений</li>
-  <li>Подготовка заключений, аналитических записок, планов мероприятий</li>
-  <li>Подготовка повесток, решений, протоколов, постановлений</li>
-  <li>Подготовка и обработка поправок, предложений, замечаний</li>
-</ul>
-
-
-  </div>
-</div>
-
-<div class="col-lg-6 mb-4 order-lg-0 order-2">
-  <div class="fill-item">
-    
-<p><strong>Виртуальный кабинет депутата.</strong> Мобильное приложение, которое обеспечивает доступ к базе данных нормативных правовых актов, повесткам заседаний и другим сервисам системы как в онлайн режиме, так и офлайн. Это позволяет депутату всегда иметь под рукой необходимую информацию.</p>
-
-<p><strong>Автоматизация общего документооборота.</strong></p>
-
-<p><strong>Конструктор документов с использованием технологий ИИ.</strong> Программный инструмент, предназначенный для генерации актуальной версии документа (закона, указа, распоряжения или прочих нормативных актов) на основе базового документа и документов о внесении изменений, реализованный с использованием технологий искусственного интеллекта.</p>
-
-<p><strong>Молодежный парламент.</strong> Обеспечивает автоматизацию деятельности молодых парламентариев и согласование ее с деятельностью регионального представительного органа власти. Сервисы подсистемы позволяют проводить заочные заседания, обсуждать вопросы повесток дня, готовить решения и проводить голосование по ним.</p>
-
-
-  </div>
-</div>
-
-<div class="product-description">
-  
-</div>
-
-
-              </div>
-            </div>
-          </div>
-          <!-- Footer -->
-<footer class="page-footer font-small blue">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-4 col-md-4 col-sm-6 f-brand">
-          <img src="/img/logo-footer.svg" class="mr-1"/>
-          <div><span>© Skyori, 2026г.</span>
-            Россия, г. Пермь<br>
-            ш. Космонавтов, 111И, к1<br>
-            ул. Стахановская, 45<br>
-          </div>
-      </div>
-      <div class="col-lg-4 col-md-4 col-sm-6">
-        <!-- <a href="tel:73422385300">+7 (342) 238 53 00</a><br> -->
-        <a href="mailto:info@skyori.ru">info@skyori.ru</a>
-      </div>
-      <div class="col-lg-4 col-md-4 col-sm-6">
-        <!-- <a href="https://www.facebook.com/skyorigroup/" _target="blank"><svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M8.83065 0H23.169C28.0386 0 32.0002 3.96162 32 8.83084V23.1692C32 28.0384 28.0386 32 23.169 32H8.83065C3.96143 32 0 28.0386 0 23.1692V8.83084C0 3.96162 3.96143 0 8.83065 0ZM23.1692 29.1608C26.473 29.1608 29.161 26.473 29.161 23.1692H29.1608V8.83084C29.1608 5.52716 26.4728 2.8392 23.169 2.8392H8.83065C5.52697 2.8392 2.8392 5.52716 2.8392 8.83084V23.1692C2.8392 26.473 5.52697 29.161 8.83065 29.1608H23.1692Z" fill="#00A77E"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M7 16.0002C7 11.5888 10.813 8 15.5 8C20.187 8 24 11.5888 24 16.0002C24 20.4114 20.187 24 15.5 24C10.813 24 7 20.4114 7 16.0002ZM9.9268 16C9.9268 18.8922 12.4271 21.2451 15.5 21.2451C18.5729 21.2451 21.0732 18.8922 21.0732 16C21.0732 13.1076 18.5731 10.7545 15.5 10.7545C12.4269 10.7545 9.9268 13.1076 9.9268 16Z" fill="#00A77E"/>
-<path d="M24 6C23.4745 6 22.9584 6.21273 22.5873 6.58545C22.2144 6.95636 22 7.47273 22 8C22 8.52564 22.2145 9.04182 22.5873 9.41455C22.9582 9.78545 23.4745 10 24 10C24.5273 10 25.0418 9.78545 25.4145 9.41455C25.7873 9.04182 26 8.52545 26 8C26 7.47273 25.7873 6.95636 25.4145 6.58545C25.0436 6.21273 24.5273 6 24 6Z" fill="#00A77E"/>
-</svg>
-</a> -->
-        <!-- <a href="https://www.facebook.com/skyorigroup/" target="_blank"><i class="fab fa-facebook-f fa-2x"></i></a> -->
-        <a href="https://vk.com/skyori" target="_blank"><i class="fab fa-vk fa-2x" aria-hidden="true"></i></a>
-      </div>
-    </div>
-  </div>
-</footer>
-
-        </div>
-      </div>
-    </div>
-  
-
-  
-    
-    <div class="modal fade modal-project" id="projects-proj9-m" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <!-- ===========================
- NAVBAR START
- =========================== -->
-<nav class="navbar navbar-expand-lg fixed-top">
-  <div class="container">
-    <a class="navbar-brand" href="/">
-        <img src="/img/logo.svg" class="logo d-inline-block align-top" alt="">
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
-      <svg width="30" height="19" viewBox="0 0 30 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M0 0H30V3H0V0ZM0 8H30V11H0V8ZM20 16H0V19H20V16Z" fill="#808080"/>
-</svg>
-
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarContent">
-      <div class="nav-close text-right mb-5" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="true" aria-label="Toggle navigation"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M12.1848 9.57786L2.6389 0.0319214L0.517578 2.15324L10.0635 11.6992L0.517578 21.2451L2.6389 23.3664L12.1848 13.8205L21.7308 23.3664L23.8521 21.2451L14.3062 11.6992L23.8521 2.15324L21.7308 0.0319214L12.1848 9.57786Z"/>
-</svg>
-</div>
-      <ul class="navbar-nav">
-  <li class="nav-item">
-    <a class="nav-link" href="/company.html" data-dismiss="modal" aria-label="Close">Компания</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/projects.html" data-dismiss="modal" aria-label="Close">Проекты и решения</a>
-  </li>
-  <li class="nav-item"></li>
-    <a class="nav-link" href="/products.html" data-dismiss="modal" aria-label="Close">Продукты</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/activities.html" data-dismiss="modal" aria-label="Close">Направления деятельности</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/contacts.html" data-dismiss="modal" aria-label="Close">Контакты</a>
-  </li>
-</ul>
-    </div><!--.nav-collapse -->
-  </div>
-</nav><!--navbar end-->   
-
-          <div class="modal-body">
-            <div class="container">
-              <div class="row justify-content-between">
-                <div class="col-lg-12 mb-3">
-                  <a href='#' data-dismiss="modal" aria-label="Close">
-                    Вернуться к списку проектов
-                  </a>
-                </div>
-                
-<div class="col-lg-6 project-title">
-    
-<h1 id="система-обеспечения-законодательной-деятельности-законодательного-собрания-санкт-петербурга">Система обеспечения законодательной деятельности Законодательного собрания Санкт-Петербурга</h1>
-
-</div>
-
-<div class="col-lg-6 project-description">
-  
-  <div class="fill-item">
-    
-<p>Назначение:</p>
-<ul>
-  <li>Автоматизация и структурирование процессов сбора, обработки и хранения информации о законотворческой деятельности Законодательного Собрания Санкт-Петербурга и работе органов Законодательного Собрания Санкт-Петербурга.</li>
-  <li>Предоставление информационной поддержки сотрудникам Законодательного Собрания Санкт-Петербурга и депутатам в ходе их участия в законотворческом процессе.</li>
-</ul>
-
-<p>Система разработана на основе модуля управления паспортами и повестками программного комплекса <a href="https://skyori.com/products.html">«Нормосфера»</a></p>
-
-
-  </div>
-  
-</div>
-
-<div class="col-lg-6">
-  
-<h6 id="результаты-внедрения">Результаты внедрения:</h6>
-
-</div>
-<div class="col-lg-6">
-</div>
-<div class="col-lg-6 checked-list">
-  
-<ul>
-  <li>Обеспечение поддержки актуальной информации и исторической базы паспортов правовых актов Законодательного Собрания Санкт-Петербурга.</li>
-  <li>Сокращение времени подготовки и снижение операционных ошибок при формировании паспортов правовых актов и повесток заседаний в результате автоматической генерации шаблонов форм.</li>
-  <li>Сокращение времени подготовки и повышение качества при формировании отчетных форм о рассмотрении вопросов (проекта повестки, проекта повестки и порядка работы; итогов рассмотрения повестки; протокола заседания).</li>
-  <li>Снижение времени получения и обеспечение полноты входящих документов законодательных инициатив средствами интеграции с СЭД Законодательного Собрания Санкт-Петербурга.</li>
-</ul>
-
-</div>
-
-<div class="col-lg-6 checked-list">
-    
-<ul>
-  <li>Обеспечение актуальных данных о сотрудниках Законодательного Собрания Санкт-Петербурга средствами интеграции с СЭД Законодательного Собрания Санкт-Петербурга.</li>
-  <li>Снижение времени передачи материалов к заседанию и получения итоговой повестки и результатов голосования за счет обеспечения обмена сведениями средствами интеграции с системой Зала заседаний (СПК СЗ “Власть”).</li>
-  <li>Сокращение материальных и временных затрат за счет снижения бумажного документооборота при подготовке и проведении заседаний.</li>
-</ul>
-
-</div>
-
-<div class="col-lg-6 mt-sm-4">
-  
-<h6 id="функциональные-возможности">Функциональные возможности:</h6>
-
-</div>
-
-<div class="col-lg-6 order-lg-0 order-2">
-  
-
-</div>
-
-<div class="col-lg-6 mb-4 order-lg-0 order-1">
-  <div class="fill-item">
-    
-<ul>
-  <li>Автоматизированное формирование перечня вопросов к рассмотрению на заседании.</li>
-  <li>Автоматизированное формирование печатных форм законотворческого процесса.</li>
-  <li>Централизованное хранение массивов повесток заседаний, паспортов правовых актов и сопровождающих документов.</li>
-</ul>
-
-  </div>
-</div>
-
-<div class="col-lg-6 mb-4 order-lg-0 order-2">
-  <div class="fill-item">
-    
-<ul>
-  <li>Обеспечение связи паспорта правового акта и пункта повестки заседания.</li>
-  <li>Ведение массивов редактируемых справочников.</li>
-  <li>Оперативный доступ к материалам и документам, сопровождающим законотворческий процесс, с учетом разграничения доступа согласно ролевой модели.</li>
-</ul>
-
-  </div>
-</div>
-
-<div class="product-description">
-  
-</div>
-
-<div class="col-lg-6 mb-4 order-lg-0 order-2">
-  <img src="/img/projects/Массив повесток заседаний.jpg" />
-</div>
-
-<div class="col-lg-6 mb-4 order-lg-0 order-2">
-  <img src="/img/projects/Формирование вопросов к рассмотрению.jpg" />
-</div>
-
-<div class="col-lg-6 mb-4 order-lg-0 order-2">
-  <img src="/img/projects/Массив паспортов правовых актов.jpg" />
-</div>
-
-<div class="col-lg-6 mb-4 order-lg-0 order-2">
-  <img src="/img/projects/Массив документов.jpg" />
-</div>
-
-<div class="col-lg-6 mb-4 order-lg-0 order-2">
-  <img src="/img/projects/Ведение массивов справочников.jpg" />
-</div>
-
-              </div>
-            </div>
-          </div>
-          <!-- Footer -->
-<footer class="page-footer font-small blue">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-4 col-md-4 col-sm-6 f-brand">
-          <img src="/img/logo-footer.svg" class="mr-1"/>
-          <div><span>© Skyori, 2026г.</span>
-            Россия, г. Пермь<br>
-            ш. Космонавтов, 111И, к1<br>
-            ул. Стахановская, 45<br>
-          </div>
-      </div>
-      <div class="col-lg-4 col-md-4 col-sm-6">
-        <!-- <a href="tel:73422385300">+7 (342) 238 53 00</a><br> -->
-        <a href="mailto:info@skyori.ru">info@skyori.ru</a>
-      </div>
-      <div class="col-lg-4 col-md-4 col-sm-6">
-        <!-- <a href="https://www.facebook.com/skyorigroup/" _target="blank"><svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M8.83065 0H23.169C28.0386 0 32.0002 3.96162 32 8.83084V23.1692C32 28.0384 28.0386 32 23.169 32H8.83065C3.96143 32 0 28.0386 0 23.1692V8.83084C0 3.96162 3.96143 0 8.83065 0ZM23.1692 29.1608C26.473 29.1608 29.161 26.473 29.161 23.1692H29.1608V8.83084C29.1608 5.52716 26.4728 2.8392 23.169 2.8392H8.83065C5.52697 2.8392 2.8392 5.52716 2.8392 8.83084V23.1692C2.8392 26.473 5.52697 29.161 8.83065 29.1608H23.1692Z" fill="#00A77E"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M7 16.0002C7 11.5888 10.813 8 15.5 8C20.187 8 24 11.5888 24 16.0002C24 20.4114 20.187 24 15.5 24C10.813 24 7 20.4114 7 16.0002ZM9.9268 16C9.9268 18.8922 12.4271 21.2451 15.5 21.2451C18.5729 21.2451 21.0732 18.8922 21.0732 16C21.0732 13.1076 18.5731 10.7545 15.5 10.7545C12.4269 10.7545 9.9268 13.1076 9.9268 16Z" fill="#00A77E"/>
-<path d="M24 6C23.4745 6 22.9584 6.21273 22.5873 6.58545C22.2144 6.95636 22 7.47273 22 8C22 8.52564 22.2145 9.04182 22.5873 9.41455C22.9582 9.78545 23.4745 10 24 10C24.5273 10 25.0418 9.78545 25.4145 9.41455C25.7873 9.04182 26 8.52545 26 8C26 7.47273 25.7873 6.95636 25.4145 6.58545C25.0436 6.21273 24.5273 6 24 6Z" fill="#00A77E"/>
-</svg>
-</a> -->
-        <!-- <a href="https://www.facebook.com/skyorigroup/" target="_blank"><i class="fab fa-facebook-f fa-2x"></i></a> -->
-        <a href="https://vk.com/skyori" target="_blank"><i class="fab fa-vk fa-2x" aria-hidden="true"></i></a>
-      </div>
-    </div>
-  </div>
-</footer>
-
-        </div>
-      </div>
-    </div>
-  
-
-  
-    
-    <div class="modal fade modal-project" id="projects-proj91-m" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <!-- ===========================
- NAVBAR START
- =========================== -->
-<nav class="navbar navbar-expand-lg fixed-top">
-  <div class="container">
-    <a class="navbar-brand" href="/">
-        <img src="/img/logo.svg" class="logo d-inline-block align-top" alt="">
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
-      <svg width="30" height="19" viewBox="0 0 30 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M0 0H30V3H0V0ZM0 8H30V11H0V8ZM20 16H0V19H20V16Z" fill="#808080"/>
-</svg>
-
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarContent">
-      <div class="nav-close text-right mb-5" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="true" aria-label="Toggle navigation"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M12.1848 9.57786L2.6389 0.0319214L0.517578 2.15324L10.0635 11.6992L0.517578 21.2451L2.6389 23.3664L12.1848 13.8205L21.7308 23.3664L23.8521 21.2451L14.3062 11.6992L23.8521 2.15324L21.7308 0.0319214L12.1848 9.57786Z"/>
-</svg>
-</div>
-      <ul class="navbar-nav">
-  <li class="nav-item">
-    <a class="nav-link" href="/company.html" data-dismiss="modal" aria-label="Close">Компания</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/projects.html" data-dismiss="modal" aria-label="Close">Проекты и решения</a>
-  </li>
-  <li class="nav-item"></li>
-    <a class="nav-link" href="/products.html" data-dismiss="modal" aria-label="Close">Продукты</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/activities.html" data-dismiss="modal" aria-label="Close">Направления деятельности</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/contacts.html" data-dismiss="modal" aria-label="Close">Контакты</a>
-  </li>
-</ul>
-    </div><!--.nav-collapse -->
-  </div>
-</nav><!--navbar end-->   
-
-          <div class="modal-body">
-            <div class="container">
-              <div class="row justify-content-between">
-                <div class="col-lg-12 mb-3">
-                  <a href='#' data-dismiss="modal" aria-label="Close">
-                    Вернуться к списку проектов
-                  </a>
-                </div>
-                
-
-              </div>
-            </div>
-          </div>
-          <!-- Footer -->
-<footer class="page-footer font-small blue">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-4 col-md-4 col-sm-6 f-brand">
-          <img src="/img/logo-footer.svg" class="mr-1"/>
-          <div><span>© Skyori, 2026г.</span>
-            Россия, г. Пермь<br>
-            ш. Космонавтов, 111И, к1<br>
-            ул. Стахановская, 45<br>
-          </div>
-      </div>
-      <div class="col-lg-4 col-md-4 col-sm-6">
-        <!-- <a href="tel:73422385300">+7 (342) 238 53 00</a><br> -->
-        <a href="mailto:info@skyori.ru">info@skyori.ru</a>
-      </div>
-      <div class="col-lg-4 col-md-4 col-sm-6">
-        <!-- <a href="https://www.facebook.com/skyorigroup/" _target="blank"><svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M8.83065 0H23.169C28.0386 0 32.0002 3.96162 32 8.83084V23.1692C32 28.0384 28.0386 32 23.169 32H8.83065C3.96143 32 0 28.0386 0 23.1692V8.83084C0 3.96162 3.96143 0 8.83065 0ZM23.1692 29.1608C26.473 29.1608 29.161 26.473 29.161 23.1692H29.1608V8.83084C29.1608 5.52716 26.4728 2.8392 23.169 2.8392H8.83065C5.52697 2.8392 2.8392 5.52716 2.8392 8.83084V23.1692C2.8392 26.473 5.52697 29.161 8.83065 29.1608H23.1692Z" fill="#00A77E"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M7 16.0002C7 11.5888 10.813 8 15.5 8C20.187 8 24 11.5888 24 16.0002C24 20.4114 20.187 24 15.5 24C10.813 24 7 20.4114 7 16.0002ZM9.9268 16C9.9268 18.8922 12.4271 21.2451 15.5 21.2451C18.5729 21.2451 21.0732 18.8922 21.0732 16C21.0732 13.1076 18.5731 10.7545 15.5 10.7545C12.4269 10.7545 9.9268 13.1076 9.9268 16Z" fill="#00A77E"/>
-<path d="M24 6C23.4745 6 22.9584 6.21273 22.5873 6.58545C22.2144 6.95636 22 7.47273 22 8C22 8.52564 22.2145 9.04182 22.5873 9.41455C22.9582 9.78545 23.4745 10 24 10C24.5273 10 25.0418 9.78545 25.4145 9.41455C25.7873 9.04182 26 8.52545 26 8C26 7.47273 25.7873 6.95636 25.4145 6.58545C25.0436 6.21273 24.5273 6 24 6Z" fill="#00A77E"/>
-</svg>
-</a> -->
-        <!-- <a href="https://www.facebook.com/skyorigroup/" target="_blank"><i class="fab fa-facebook-f fa-2x"></i></a> -->
-        <a href="https://vk.com/skyori" target="_blank"><i class="fab fa-vk fa-2x" aria-hidden="true"></i></a>
-      </div>
-    </div>
-  </div>
-</footer>
-
-        </div>
-      </div>
-    </div>
-  
-
-
-    <!-- Footer -->
-<footer class="page-footer font-small blue">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-4 col-md-4 col-sm-6 f-brand">
-          <img src="/img/logo-footer.svg" class="mr-1"/>
-          <div><span>© Skyori, 2026г.</span>
-            Россия, г. Пермь<br>
-            ш. Космонавтов, 111И, к1<br>
-            ул. Стахановская, 45<br>
-          </div>
-      </div>
-      <div class="col-lg-4 col-md-4 col-sm-6">
-        <!-- <a href="tel:73422385300">+7 (342) 238 53 00</a><br> -->
-        <a href="mailto:info@skyori.ru">info@skyori.ru</a>
-      </div>
-      <div class="col-lg-4 col-md-4 col-sm-6">
-        <!-- <a href="https://www.facebook.com/skyorigroup/" _target="blank"><svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M8.83065 0H23.169C28.0386 0 32.0002 3.96162 32 8.83084V23.1692C32 28.0384 28.0386 32 23.169 32H8.83065C3.96143 32 0 28.0386 0 23.1692V8.83084C0 3.96162 3.96143 0 8.83065 0ZM23.1692 29.1608C26.473 29.1608 29.161 26.473 29.161 23.1692H29.1608V8.83084C29.1608 5.52716 26.4728 2.8392 23.169 2.8392H8.83065C5.52697 2.8392 2.8392 5.52716 2.8392 8.83084V23.1692C2.8392 26.473 5.52697 29.161 8.83065 29.1608H23.1692Z" fill="#00A77E"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M7 16.0002C7 11.5888 10.813 8 15.5 8C20.187 8 24 11.5888 24 16.0002C24 20.4114 20.187 24 15.5 24C10.813 24 7 20.4114 7 16.0002ZM9.9268 16C9.9268 18.8922 12.4271 21.2451 15.5 21.2451C18.5729 21.2451 21.0732 18.8922 21.0732 16C21.0732 13.1076 18.5731 10.7545 15.5 10.7545C12.4269 10.7545 9.9268 13.1076 9.9268 16Z" fill="#00A77E"/>
-<path d="M24 6C23.4745 6 22.9584 6.21273 22.5873 6.58545C22.2144 6.95636 22 7.47273 22 8C22 8.52564 22.2145 9.04182 22.5873 9.41455C22.9582 9.78545 23.4745 10 24 10C24.5273 10 25.0418 9.78545 25.4145 9.41455C25.7873 9.04182 26 8.52545 26 8C26 7.47273 25.7873 6.95636 25.4145 6.58545C25.0436 6.21273 24.5273 6 24 6Z" fill="#00A77E"/>
-</svg>
-</a> -->
-        <!-- <a href="https://www.facebook.com/skyorigroup/" target="_blank"><i class="fab fa-facebook-f fa-2x"></i></a> -->
-        <a href="https://vk.com/skyori" target="_blank"><i class="fab fa-vk fa-2x" aria-hidden="true"></i></a>
-      </div>
-    </div>
-  </div>
-</footer>
-
-     <!-- jQuery Version 1.11.0 -->
-    <script src="/js/jquery-3.3.1.min.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="/js/bootstrap/bootstrap.min.js"></script>
-
-    <script src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="/js/cbpAnimatedHeader.js"></script>
-    <script src="/js/custom-scripts.js"></script>
 
   </body>
 </html>
